@@ -1,0 +1,21 @@
+main.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdint.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\spi_hw.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdio.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\SpiDriver\spi.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\itc.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\exti.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\gpio.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\tim4.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\mymacro.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Standard\inc\clk.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\IAR_Project\User\main.c

@@ -2155,14 +2155,35 @@
     </configuration>
     <group>
         <name>Driver</name>
+        <file>
+            <name>$PROJ_DIR$\SpiDriver\Spi.c</name>
+        </file>
     </group>
     <group>
         <name>Standard</name>
-        <group>
-            <name>inc</name>
-        </group>
-        <group>
-            <name>src</name>
-        </group>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\clk.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\exti.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\itc.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\spi_hw.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Standard\src\tim4.c</name>
+        </file>
+    </group>
+    <group>
+        <name>User</name>
+        <file>
+            <name>$PROJ_DIR$\User\main.c</name>
+        </file>
     </group>
 </project>

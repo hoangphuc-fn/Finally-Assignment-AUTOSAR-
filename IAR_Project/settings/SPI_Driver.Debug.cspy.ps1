@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\PhucLH15\Desktop\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.general.xcl" --backend -f "C:\Users\PhucLH15\Desktop\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.general.xcl" --backend -f "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\PhucLH15\Desktop\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\PhucLH15\Desktop\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\common\bin\cspybat" -f "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\IAR_Project\settings\SPI_Driver.Debug.driver.xcl" 
 }

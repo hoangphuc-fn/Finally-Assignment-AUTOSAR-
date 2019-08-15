@@ -1,10 +1,10 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8proc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\bin\stm8proc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8sim.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\bin\stm8stlink.dll" 
 
-"C:\Users\PhucLH15\Desktop\Finally-Assignment-AUTOSAR-\IAR_Project\Debug\Exe\SPI_Driver.out" 
+"E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\IAR_Project\Debug\Exe\SPI_Driver.out" 
 
---plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8bat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\bin\stm8bat.dll" 
 
 
 

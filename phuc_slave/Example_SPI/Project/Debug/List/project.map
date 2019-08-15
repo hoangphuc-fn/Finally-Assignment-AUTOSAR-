@@ -1,0 +1,337 @@
+###############################################################################
+#
+# IAR ELF Linker V3.11.1.207 for STM8                     15/Aug/2019  15:30:48
+# Copyright 2010-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Exe\project.out
+#    Map file     =  
+#        E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\List\project.map
+#    Command line =  
+#        -f C:\Users\17521\AppData\Local\Temp\EWC9FD.tmp
+#        ("E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\main.o"
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\user_it.o"
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
+#        --no_out_extension -o
+#        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Exe\project.out"
+#        --map "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final
+#        project
+#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\List\project.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3_2\stm8\config\lnkstm8l151k4.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A1":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A2":  place at start of [0x008000-0x00bfff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00bfff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x00bfff] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x00bfff] {
+          ro section .huge.rodata, ro section .huge_func.text };
+do not initialize {
+   rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
+   rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
+initialize by copy {
+   rw section .far.bss, rw section .far.data, rw section .far_func.textrw,
+   rw section .huge.bss, rw section .huge.data, rw section .huge_func.textrw,
+   rw section .iar.dynexit, rw section .near.bss, rw section .near.data,
+   rw section .near_func.textrw, rw section .tiny.bss, rw section .tiny.data,
+   ro section .tiny.rodata };
+
+No sections matched the following patterns:
+
+  ro section .far.data_init          in "P3-P5"
+  ro section .far.rodata             in "P3-P5"
+  ro section .far_func.text          in "P3-P5"
+  ro section .far_func.textrw_init   in "P3-P5"
+  ro section .huge.data_init         in "P3-P5"
+  ro section .huge.rodata            in "P3-P5"
+  ro section .huge_func.text         in "P3-P5"
+  ro section .huge_func.textrw_init  in "P3-P5"
+  ro section .iar.init_table         in "P3-P5"
+  ro section .init_array             in "P3-P5"
+  ro section .near.rodata            in "P3-P5"
+  ro section .near_func.textrw_init  in "P3-P5"
+  ro section .tiny.data_init         in "P3-P5"
+  ro section .tiny.rodata_init       in "P3-P5"
+  ro section __DLIB_PERTHREAD_init   in "P3-P5"
+  rw section .far.bss                in "P2"
+  rw section .far.data               in "P2"
+  rw section .far.noinit             in "P2"
+  rw section .far_func.textrw        in "P2"
+  rw section .huge.bss               in "P2"
+  rw section .huge.data              in "P2"
+  rw section .huge.noinit            in "P2"
+  rw section .huge_func.textrw       in "P2"
+  rw section .iar.dynexit            in "P2"
+  rw section .near.noinit            in "P2"
+  rw section .near_func.textrw       in "P2"
+  rw section .tiny.bss               in "P1"
+  rw section .tiny.data              in "P1"
+  rw section .tiny.noinit            in "P1"
+  rw section .tiny.rodata            in "P1"
+  rw section __DLIB_PERTHREAD        in "P2"
+  section .eeprom.data               in "P6-P8"
+  section .eeprom.noinit             in "P6-P8"
+  section .eeprom.rodata             in "P6-P8"
+
+
+  Section            Kind      Address   Size  Object
+  -------            ----      -------   ----  ------
+"A0":                                     0xc
+  .vregs             uninit   0x000000    0xc  vregs.o [4]
+                            - 0x00000c    0xc
+
+"P2":                                    0x51
+  P2-1                        0x00000c   0x51  <Init block>
+    .near.data       inited   0x00000c   0x4a  iar_stm8l152_lcd.o [1]
+    .near.data       inited   0x000056    0x4  main.o [1]
+    .near.bss        inited   0x00005a    0x2  iar_stm8l152_lcd.o [1]
+    .near.bss        inited   0x00005c    0x1  main.o [1]
+                            - 0x00005d   0x51
+
+"A1":                                   0x100
+  CSTACK                      0x000700  0x100  <Block>
+    CSTACK           uninit   0x000700  0x100  <Block tail>
+                            - 0x000800  0x100
+
+"A2":                                    0x80
+  INTVEC                      0x008000   0x80  <Block>
+    .intvec          const    0x008000   0x80  interrupt.o [4]
+                            - 0x008080   0x80
+
+"P3-P5":                                0x7b4
+  .near_func.text    ro code  0x008080  0x479  iar_stm8l152_lcd.o [1]
+  .near_func.text    ro code  0x0084f9   0xbb  iar_stm8l152_spi.o [1]
+  .near_func.text    ro code  0x0085b4   0x5d  vreg_util.o [4]
+  Initializer bytes  const    0x008611   0x51  <for P2-1>
+  .near_func.text    ro code  0x008662   0x47  user_it.o [1]
+  .near_func.text    ro code  0x0086a9   0x45  iar_stm8l152_lcd.o [1]
+  .near_func.text    ro code  0x0086ee   0x28  init_small.o [4]
+  .near_func.text    ro code  0x008716   0x27  user_it.o [1]
+  .iar.init_table    const    0x00873d    0xa  - Linker created -
+  .near_func.text    ro code  0x008747   0x1a  long_util.o [4]
+  .near_func.text    ro code  0x008761   0x19  main.o [1]
+  .near_func.text    ro code  0x00877a   0x16  iar_stm8l152_spi.o [1]
+  .near_func.text    ro code  0x008790   0x14  init.o [4]
+  .near_func.text    ro code  0x0087a4   0x14  __dbg_xxexit.o [3]
+  .near_func.text    ro code  0x0087b8   0x13  cstartup.o [4]
+  .near_func.text    ro code  0x0087cb   0x13  long.o [4]
+  .near_func.text    ro code  0x0087de   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text    ro code  0x0087ef   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text    ro code  0x008800   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text    ro code  0x008811    0xc  char.o [4]
+  .near_func.text    ro code  0x00881d    0x5  iar_stm8l152_spi.o [1]
+  .near_func.text    ro code  0x008822    0x5  cexit.o [4]
+  .near_func.text    ro code  0x008827    0x3  interrupt.o [4]
+  .near_func.text    ro code  0x00882a    0x3  low_level_init.o [4]
+  .near_func.text    ro code  0x00882d    0x3  exit.o [4]
+  .near_func.text    ro code  0x008830    0x3  unhandled_exception.o [4]
+  .near_func.text    ro code  0x008833    0x1  __dbg_break.o [3]
+                            - 0x008834  0x7b4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Copy (__iar_copy_init2)
+    1 source range, total size 0x51:
+          0x008611  0x51
+    1 destination range, total size 0x51:
+          0x00000c  0x51
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj: [1]
+    iar_stm8l152_gpio.o         51
+    iar_stm8l152_lcd.o       1 214       76       76
+    iar_stm8l152_spi.o         214
+    main.o                      25        5        5
+    user_it.o                  110
+    ------------------------------------------------
+    Total:                   1 614       81       81
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    char.o                      12
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      20
+    init_small.o                40
+    interrupt.o                  3      128
+    long.o                      19
+    long_util.o                 26
+    low_level_init.o             3
+    unhandled_exception.o        3
+    vreg_util.o                 93
+    vregs.o                                       12
+    ------------------------------------------------
+    Total:                     246      128       12
+
+    Linker created                       10      256
+----------------------------------------------------
+    Grand Total:             1 881      219      349
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x00873d          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x008747          --   Gb  - Linker created -
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?inc32_0x_0x            0x0087d0         Code  Gb  long.o [4]
+?inc32_l0_l0            0x0087cb         Code  Gb  long.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?load32_0x_l0           0x008753         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x008747         Code  Gb  long_util.o [4]
+?pop_l0                 0x0085f3         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x0085fe         Code  Gb  vreg_util.o [4]
+?push_l0                0x0085cc         Code  Gb  vreg_util.o [4]
+?push_l1                0x0085d1         Code  Gb  vreg_util.o [4]
+?push_w4                0x0085b4         Code  Gb  vreg_util.o [4]
+?sll8_a_a_5             0x008812         Code  Gb  char.o [4]
+?sll8_a_a_6             0x008811         Code  Gb  char.o [4]
+?srl8_a_a_5             0x008818         Code  Gb  char.o [4]
+?srl8_a_a_6             0x008817         Code  Gb  char.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+CSTACK$$Base            0x000700          --   Gb  - Linker created -
+CSTACK$$Limit           0x000800          --   Gb  - Linker created -
+EXTI_Line_1             0x008716   0x27  Code  Gb  user_it.o [1]
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+Read_SPI                0x008662   0x47  Code  Gb  user_it.o [1]
+Region$$Table$$Base     0x00873d          --   Gb  - Linker created -
+Region$$Table$$Limit    0x008747          --   Gb  - Linker created -
+__DebugBreak            0x008833    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x0087a4   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x0086ee         Code  Gb  init_small.o [4]
+__iar_data_init2        0x008790   0x14  Code  Gb  init.o [4]
+__iar_program_start     0x0087b8         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x008830         Code  Gb  unhandled_exception.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x00882a    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x008822         Code  Gb  cexit.o [4]
+_interrupt_11           0x008716         Code  Gb  user_it.o [1]
+_interrupt_28           0x008662         Code  Gb  user_it.o [1]
+buffer_lcd              0x00005a    0x2  Data  Lc  iar_stm8l152_lcd.o [1]
+char_list               0x00000c   0x4a  Data  Lc  iar_stm8l152_lcd.o [1]
+cnt                     0x000056    0x4  Data  Gb  main.o [1]
+config_Bled             0x0087de   0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_Gled             0x0087ef   0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_LCDvsRTC         0x0086a9   0x45  Code  Gb  iar_stm8l152_lcd.o [1]
+config_Ubtn             0x008800   0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_spi              0x0084f9   0xbb  Code  Gb  iar_stm8l152_spi.o [1]
+data_read               0x00005c    0x1  Data  Gb  main.o [1]
+exit                    0x00882d    0x3  Code  Gb  exit.o [4]
+lcd_print               0x008080  0x43d  Code  Gb  iar_stm8l152_lcd.o [1]
+lcd_print_char          0x0084bd   0x3c  Code  Gb  iar_stm8l152_lcd.o [1]
+main                    0x008761   0x19  Code  Gb  main.o [1]
+read_byte_spi           0x00881d    0x5  Code  Gb  iar_stm8l152_spi.o [1]
+write_byte_spi          0x00877a   0x16  Code  Gb  iar_stm8l152_spi.o [1]
+
+
+[1] = E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  1 881 bytes of readonly  code memory
+    219 bytes of readonly  data memory
+    349 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
