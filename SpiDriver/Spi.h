@@ -135,7 +135,7 @@ typedef struct Spi_ChannelConfig
   // Symbolic name
   Spi_ChannelType SpiChannelId;
   // Buffer usage with EB/IB channel
-  Spi_BufferType SpiChannelType;
+  //Spi_BufferType SpiChannelType;
 
   // This parameter is the width of a transmitted data unit.
   uint32 SpiDataWidth;
@@ -244,5 +244,8 @@ typedef struct Spi_Driver
 } Spi_DriverType;
 /* @req SWS_Spi_00372 */
 typedef Spi_DriverType Spi_ConfigType;
+
+/*--------------------------------standard defination--------------------*/
+
 
 #endif /*_SPI_DRIVER_H_*/
