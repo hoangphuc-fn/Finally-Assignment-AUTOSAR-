@@ -104,8 +104,6 @@ void config_Bled();
 void config_Gled();
 /* Config User Button - PC1 */
 void config_Ubtn();
-
-void config_4btns();
 /* Config Port_C as Output Port */
 void config_Led_Port();
 /* Turn off led function */

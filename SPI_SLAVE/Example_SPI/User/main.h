@@ -9,6 +9,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-
+//#define SLAVE_1
+#define SLAVE_2
 
 #endif /* _MAIN_H_ */

@@ -3,51 +3,31 @@ extern uint32_t cnt;
 extern uint8_t data_read;
 extern uint8_t actived;
 
-
-#pragma vector=2+9
-__interrupt void EXTI_Line_1(void){
-    if(!gbi(GPIOC->IDR,1)){
-    cnt ++;
-    tbi(GPIOE->ODR,7);
-  }
-  sbi(EXTI->SR1,1);
-}
-
 #pragma vector=2+26
 __interrupt void Read_SPI(void){
-  tbi(GPIOC->ODR,7);
-  /*!< print data send to MASTER device at 3rd position */
-  lcd_print_char(data_read,3);
+  /*!< count number of bytes read */
+  cnt ++;
   data_read = read_byte_spi(SPI1);
-  /*!< print data read from MASTER device at 1st position */
-  if(data_read != 0) {
-    lcd_print_char(data_read,1);
-    if(data_read == 'b'){
-    actived = 1;
-    }
-    else if(data_read == 's'){
-      actived = 0;
-    }
-    if(cnt == 254){
-      //write_byte_spi(SPI1,'1');
-    }
-    else{
-      //write_byte_spi(SPI1,'0');
-    }
-  }
-  /*
+  /*!< if button 1 or button 2 on MASTER are pressed */
   if(data_read == 'b'){
     actived = 1;
   }
+  /*!< if STOP_BUTTON on MASTER is pressed */
   else if(data_read == 's'){
     actived = 0;
   }
-  if(cnt == 254){
-    write_byte_spi(SPI1,'1');
+  if(cnt == 1019){ /*!< 255*4(byte) - 1(byte) */
+    #ifdef SLAVE_1 /*!< define SLAVE_1 in main.h file */
+      write_byte_spi(SPI1,'1');
+    #else          /*!< define SLAVE_2 */
+      write_byte_spi(SPI1,'2');
+    #endif
+  }
+  else if (cnt > 1019){
+    cnt = 0;
+    write_byte_spi(SPI1,'0');
   }
   else{
     write_byte_spi(SPI1,'0');
   }
-*/
-  //write_byte_spi(SPI1,data_read);
 }

@@ -75,7 +75,7 @@ void config_spi(SPI_Mode_TypeDef SPI_Mode, SPI_DirectionMode_TypeDef SPI_Directi
 
 void write_byte_spi(SPI_TypeDef *SPIx,unsigned char data){
   SPIx->DR = data;
-  while(!gbi(SPIx->SR,1));
+  //while(gbi(SPIx->SR,1));
 }
 
 unsigned char read_byte_spi(SPI_TypeDef *SPIx){

@@ -1,26 +1,26 @@
-"C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\src\iar_stm8l152_spi.c"
+"C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Libraries\src\iar_stm8l152_spi.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.pbi.dep
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.pbi.dep
 -o
 iar_stm8l152_spi.pbi
 -I
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\src
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Libraries\src
 -I
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\User
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\..\User
 -I
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\Libraries\inc
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\..\Libraries\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\User
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\User
 -I
-C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\inc
+C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Libraries\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

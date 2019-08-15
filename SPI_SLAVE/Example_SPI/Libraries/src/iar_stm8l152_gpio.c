@@ -53,7 +53,7 @@ void config_4btns(){
   sbi(GPIOA->CR2, 4);                   /*!< interrupt enable */
   EXTI->CR2 |= (1<<1);                  /*!< Falling edge interrupt */
 }
-
+/* Config Port_C as Output Port */
 void config_Led_Port(){
   GPIOC->DDR = 0xFF;                    /*!< PC is an output port */
   GPIOC->CR1 = 0xFF;                    /*!< PC: push pull mode */
@@ -69,7 +69,7 @@ void shift_led_effect(){
   /*!< Shift Led effect */
   for(uint8_t i = 0; i < 8; i++){
     cbi(GPIOC->ODR,i);
-    delay(5000);
+    delay(7000);
   }
   /*!< Turn off all leds */
   turn_off_all_led();
