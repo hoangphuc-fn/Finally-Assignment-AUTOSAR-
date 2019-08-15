@@ -5,120 +5,106 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\user_it.o</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_gpio.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_spi.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</file>
-            <file>$PROJ_DIR$\..\User\main.c</file>
-            <file>$PROJ_DIR$\..\User\user_it.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\clock.c</file>
             <file>$PROJ_DIR$\..\Libraries\inc\lcd.h</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_spi.c</file>
             <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152.c</file>
             <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_gpio.h</file>
-            <file>$PROJ_DIR$\..\Libraries\src\clock.c</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_clk.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\user_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_gpio.c</file>
+            <file>$PROJ_DIR$\..\User\main.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</file>
+            <file>$PROJ_DIR$\..\User\user_it.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_it.o</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\lcd.c</file>
+            <file>$PROJ_DIR$\..\User\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\clock.h</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_lcd.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_it.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\src\gpio.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l151k4.icf</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\List\project.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
             <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.__cstat.et</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\interrupt.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.o</file>
             <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.o</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\interrupt.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_it.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_gpio.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152.o</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_gpio.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
             <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_usart.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\Debug\List\project.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.__cstat.et</file>
-            <file>$PROJ_DIR$\..\Libraries\src\lcd.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
-            <file>$PROJ_DIR$\..\Libraries\src\gpio.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_spi.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\user_it.xcl</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\clock.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\..\User\main.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_spi.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_lcd.xcl</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8l151k4.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_clk.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152.h</file>
-            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_lcd.h</file>
+            <file>$PROJ_DIR$\..\Libraries\inc\iar_stm8l152_clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iar_stm8l152_usart.xcl</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 42</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 64</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 18</file>
+                    <name>ILINK</name>
+                    <file> 17 37</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 69 68 47 35 59 24 22 50 37 31</file>
-                </tool>
-            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_gpio.c</name>
+            <name>$PROJ_DIR$\..\Libraries\src\clock.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 16</file>
+                    <file> 33</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 52</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 10 68 47 35 59 24 22 50 37 31 60 45 28</file>
+                    <file> 9 13 43 26 67 30 59 46 22 39 41 49 1 20 50 36 25 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 41 20 49 26 30 43 1 50 36 59 25 13 39 46 22 62</file>
                 </tool>
             </inputs>
         </file>
@@ -127,57 +113,76 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 38</file>
+                    <file> 63</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 53</file>
+                    <file> 16</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 20</file>
+                    <file> 51</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 63 68 47 35 59 24 22 50 37 31</file>
+                    <file> 23 32 26 67 30 59 46 22 39 41</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</name>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 21</file>
+                    <file> 55</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 66</file>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 20 39 22 30 49 26 43 1 50 36 46 62 13 59 41 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 48</file>
+                    <file> 60</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 12 68 47 35 59 24 22 50 37 31</file>
+                    <file> 4 32 26 67 30 59 46 22 39 41 36 25 62</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</name>
+            <name>$PROJ_DIR$\..\User\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 57</file>
+                    <file> 65</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 17</file>
+                    <file> 19</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -187,30 +192,53 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 44 68 47 35 59 24 22 50 37 31</file>
+                    <file> 13 4 32 26 67 30 59 46 22 39 41 36 25 62 21 68 34 23 50</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\User\main.c</name>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 32</file>
+                    <file> 35</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 67</file>
+                    <file> 69</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 39</file>
+                    <file> 42</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 61 10 68 47 35 59 24 22 50 37 31 60 45 28 69 12 44 63 15</file>
+                    <file> 34 32 26 67 30 59 46 22 39 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 68 32 26 67 30 59 46 22 39 41</file>
                 </tool>
             </inputs>
         </file>
@@ -219,72 +247,44 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 0</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 54</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 13</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 61 10 68 47 35 59 24 22 50 37 31 60 45 28 69 12 44 63 15</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 56 46</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 29</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 36</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 35 55 37 50 59 19 47 30 8 15 60 22 28 61 24 31 45</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Libraries\src\clock.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 43</file>
+                    <file> 10</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 27</file>
                 </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 7 61 30 47 35 59 24 22 50 37 31 19 8 55 15 60 45 28</file>
+                    <file> 13 4 32 26 67 30 59 46 22 39 41 36 25 62 21 68 34 23 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 35 31 55 19 47 59 30 8 15 60 24 45 61 37 22 50 28</file>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21 32 26 67 30 59 46 22 39 41</file>
                 </tool>
             </inputs>
         </file>
@@ -293,48 +293,21 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 58</file>
+                    <file> 24</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 33</file>
+                    <file> 53</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 7 61 30 47 35 59 24 22 50 37 31 19 8 55 15 60 45 28</file>
+                    <file> 9 13 43 26 67 30 59 46 22 39 41 49 1 20 50 36 25 62</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8 55 59 19 47 24 45 30 15 60 31 35 61 37 22 50 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Libraries\src\gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 26</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 7 61 30 47 35 59 24 22 50 37 31 19 8 55 15 60 45 28</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 35 55 37 50 59 19 47 30 8 15 60 22 28 61 24 31 45</file>
+                    <file> 1 20 30 49 26 59 25 43 50 36 41 67 13 39 46 22 62</file>
                 </tool>
             </inputs>
         </file>
@@ -343,13 +316,40 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 46</file>
+                    <file> 37</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 65 21 16 42 38 57 32 0 51 34</file>
+                    <file> 31 58 56 48 63 35 65 10 38 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 9 13 43 26 67 30 59 46 22 39 41 49 1 20 50 36 25 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 20 39 22 30 49 26 43 1 50 36 46 62 13 59 41 25</file>
                 </tool>
             </inputs>
         </file>
@@ -357,39 +357,39 @@
     <configuration>
         <name>Release</name>
         <outputs>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</file>
             <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_gpio.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</file>
-            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</file>
             <file>$PROJ_DIR$\..\User\main.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</file>
             <file>$PROJ_DIR$\..\User\user_it.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</file>
+            <file>$PROJ_DIR$\..\User\main.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Release\Obj\iar_stm8l152_lcd.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\iar_stm8l152_usart.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\user_it.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\..\User\main.h</file>
-            <file>$PROJ_DIR$\Release\Obj\iar_stm8l152_usart.pbi</file>
             <file>$PROJ_DIR$\Release\Obj\iar_stm8l152_clk.pbi</file>
             <file>$PROJ_DIR$\Release\Obj\iar_stm8l152_gpio.pbi</file>
-            <file>$PROJ_DIR$\Release\Obj\user_it.pbi</file>
-            <file>$PROJ_DIR$\Release\Exe\project.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\project.out</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 13</file>
+                    <name>ILINK</name>
+                    <file> 25</file>
                 </tool>
             </outputs>
         </file>
@@ -398,25 +398,7 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 21</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 20</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
         </file>
@@ -425,41 +407,59 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 25</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 19</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 10 18 12 9 6 17 15 8 7 16 14 19</file>
+                    <file> 23 18 16 17 22 20 13 12 21 19 7 11 6</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\User\user_it.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 10 18 12 9 6 17 15 8 7 16 14 19</file>
+                    <file> 23 18 16 17 22 20 13 12 21 19 7 11 6</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\..\Libraries\src\iar_stm8l152_lcd.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 24</file>
+                    <name>BICOMP</name>
+                    <file> 8</file>
                 </tool>
             </outputs>
         </file>

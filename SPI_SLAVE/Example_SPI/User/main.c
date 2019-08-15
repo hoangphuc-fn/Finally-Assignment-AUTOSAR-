@@ -7,7 +7,7 @@ uint8_t data_read = 0;
 void main(void){
   config_Led_Port();
   config_Gled();
-  config_spi(SPI_Mode_Slave, SPI_Direction_2Lines_FullDuplex, SPI_NSS_Soft);
+  config_spi(SPI_Mode_Slave, SPI_Direction_2Lines_FullDuplex, SPI_NSS_Hard);
   __enable_interrupt();
   while(1){
     if(actived){
