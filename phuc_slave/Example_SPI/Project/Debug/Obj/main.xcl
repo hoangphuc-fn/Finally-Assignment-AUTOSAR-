@@ -1,26 +1,26 @@
-"E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User\main.c"
+"E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\User\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\main.pbi.dep
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\User
 -I
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\..\User
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\User
 -I
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\..\Libraries\inc
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\Libraries\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc\c
 -I
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\User
 -I
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Libraries\inc
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

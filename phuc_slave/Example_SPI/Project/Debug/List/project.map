@@ -1,37 +1,37 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     15/Aug/2019  15:30:48
+# IAR ELF Linker V3.11.1.207 for STM8                     15/Aug/2019  17:03:13
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
 #        E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Exe\project.out
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Exe\project.out
 #    Map file     =  
 #        E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\List\project.map
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\List\project.map
 #    Command line =  
-#        -f C:\Users\17521\AppData\Local\Temp\EWC9FD.tmp
+#        -f C:\Users\17521\AppData\Local\Temp\EW677D.tmp
 #        ("E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\main.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\main.o"
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj\user_it.o"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj\user_it.o"
 #        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
 #        --no_out_extension -o
 #        "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Exe\project.out"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Exe\project.out"
 #        --map "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final
 #        project
-#        autosar\phuc\FGA-Training\Example_SPI\Project\Debug\List\project.map"
+#        autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\List\project.map"
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3_2\stm8\config\lnkstm8l151k4.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
@@ -201,7 +201,7 @@ Copy (__iar_copy_init2)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj: [1]
+E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj: [1]
     iar_stm8l152_gpio.o         51
     iar_stm8l152_lcd.o       1 214       76       76
     iar_stm8l152_spi.o         214
@@ -324,7 +324,7 @@ read_byte_spi           0x00881d    0x5  Code  Gb  iar_stm8l152_spi.o [1]
 write_byte_spi          0x00877a   0x16  Code  Gb  iar_stm8l152_spi.o [1]
 
 
-[1] = E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Project\Debug\Obj
+[1] = E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
