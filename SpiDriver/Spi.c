@@ -29,7 +29,7 @@ void SPI_HW_Init(SPI_FirstBit_TypeDef SPI_FirstBit,
   SPI->CRCPR = (uint8_t)CRCPolynomial;
 }
 
-void SPI_Cmd(uint8_t NewState)
+void SPI_HW_Cmd(uint8_t NewState)
 {
   if (NewState != DISABLE)
   {
@@ -164,12 +164,12 @@ void Spi_Init(const Spi_ConfigType* ConfigPtr) {
 	setSquenceStatus(spiSequence, SPI_SEQ_OK);
 
 	/* HW enable */
-	SPI_Cmd(ENABLE);
+	SPI_HW_Cmd(ENABLE);
 	setDriverStatus(SPI_IDLE);
 }
 
 Std_ReturnType Spi_DeInit(void) {
-	SPI_Cmd(DISABLE);
+	SPI_HW_Cmd(DISABLE);
 	setDriverStatus(SPI_UNINIT);
 	return E_OK;
 }

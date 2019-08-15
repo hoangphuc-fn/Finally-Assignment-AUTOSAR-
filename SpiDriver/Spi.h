@@ -16,8 +16,8 @@
 #define _SPI_DRIVER_H_
 
 /******* WARNING:  Need to define before using*/
-#define SPI_MAX_CHANNEL 	x /* x = ? */
-#define SPI_MAX_JOB		y /* y = ? */
+#define SPI_MAX_CHANNEL 	4
+#define SPI_MAX_JOB		2
 
 
 /******************************************************************************/
@@ -135,7 +135,7 @@ typedef struct Spi_ChannelConfig
   // Symbolic name
   Spi_ChannelType SpiChannelId;
   // Buffer usage with EB/IB channel
-  //Spi_BufferType SpiChannelType;
+  Spi_BufferType SpiChannelType;
 
   // This parameter is the width of a transmitted data unit.
   uint32 SpiDataWidth;
@@ -245,7 +245,20 @@ typedef struct Spi_Driver
 /* @req SWS_Spi_00372 */
 typedef Spi_DriverType Spi_ConfigType;
 
-/*--------------------------------standard defination--------------------*/
+/* function declaration */
+void Handle_Job_Finish_0 (void);
+void Handle_Job_Finish_1 (void);
+void Control_CSN (Spi_JobType jobID, GPIO_State state);
+void Spi_Init(const Spi_ConfigType* ConfigPtr);
+Std_ReturnType Spi_DeInit(void);
 
+/*--------------------------------standard lib defination--------------------*/
+void SPI_HW_Init(SPI_FirstBit_TypeDef SPI_FirstBit,
+              SPI_BaudRatePrescaler_TypeDef SPI_BaudRatePrescaler,
+              SPI_Mode_TypeDef SPI_Mode, SPI_CPOL_TypeDef SPI_CPOL,
+              SPI_CPHA_TypeDef SPI_CPHA, SPI_DirectionMode_TypeDef SPI_Data_Direction,
+              SPI_NSS_TypeDef SPI_Slave_Management, uint8_t CRCPolynomial);
+void SPI_HW_Cmd(uint8_t NewState);
+void Spi_HW_Transaction(uint8 sendData, uint8 *readData, uint8 CopiData);
 
 #endif /*_SPI_DRIVER_H_*/
