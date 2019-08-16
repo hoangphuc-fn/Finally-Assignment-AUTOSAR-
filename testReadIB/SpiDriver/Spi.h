@@ -16,7 +16,7 @@
 /*                          Define Standard Type	            	      */
 /******************************************************************************/
 
-#define SpiLevelDelivered 1
+#define SpiLevelDelivered 0
 
 typedef uint8 Std_ReturnType;
 typedef uint8 Spi_BufferType;
@@ -210,11 +210,13 @@ extern Spi_ConfigType spiDriver;
 
 //additional function
 void Spi_Delay(uint32 t);
+void Spi_HW_Transaction(uint8 sendData, uint8 *readData);
 void Control_CSN (Spi_JobType jobID, GPIO_State state);
 void Spi_Transaction_Channel(Spi_ChannelType Channel, Spi_DataBufferType* DataBufferPtr);
 void setJobStatus(Spi_JobType JobID, Spi_JobResultType JobStatus);
 void setSequenceStatus(Spi_SequenceType SequenceID, Spi_SeqResultType SequenceStatus);
 void setDriverStatus(Spi_StatusType DriverStatus);
+void Spi_Job_Cancel(Spi_SequenceType Job);
 
 //standard autosar
 
@@ -226,5 +228,6 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence);
 Spi_StatusType Spi_GetStatus(void);
 Spi_JobResultType Spi_GetJobResult(Spi_JobType Job);
 Spi_SeqResultType Spi_GetSequenceResult(Spi_SequenceType Sequence);
+void Spi_Cancel(Spi_SequenceType Sequence);
 
 #endif /*_SPI_DRIVER_H_*/

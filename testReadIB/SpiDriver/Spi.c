@@ -66,6 +66,7 @@ void Spi_HW_Transaction(uint8 sendData, uint8 *readData) {
 
 void Spi_Transaction_Channel(Spi_ChannelType Channel, Spi_DataBufferType* DataBufferPtr) {
   for(uint8 iData=0; iData < spiDriver.SpiChannel[Channel].SpiIbNBuffers; iData++) {
+    Spi_Delay(100);
     Spi_HW_Transaction(DataBufferPtr[iData], &DataBufferPtr[iData]);
   }
 }
@@ -199,28 +200,32 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
     /* thuc thi job */
     Spi_JobType headJob = spiDriver.SpiSequence[Sequence].JobLink[iJob];
     setJobStatus(headJob,SPI_JOB_PENDING);
+    Spi_Delay(20000);
     Control_CSN(headJob, LOW);
-    Spi_Delay(5000);
-    for(uint16 iChannel=1; iChannel<=255; iChannel++) {
+    for(uint16 iChannel=1; iChannel<=254; iChannel++) {
       if(spiDriver.SpiJob[headJob].Canceled == ENABLE) {
         Control_CSN(headJob, HIGH);
         spiDriver.SpiJob[headJob].Canceled = DISABLE;
         setJobStatus(headJob, SPI_JOB_FAILED);
         setSequenceStatus(Sequence, SPI_SEQ_CANCELED);
-        (*spiDriver.SpiJob[headJob].SpiJobEndNotification)();
+        //(*spiDriver.SpiJob[headJob].SpiJobEndNotification)();
         return E_OK;
       }
       //get channel ID of job
       Spi_ChannelType channelID = spiDriver.SpiJob[headJob].ChannelLink[iChannel];
       Spi_Transaction_Channel(spiDriver.SpiChannel[channelID].SpiChannelId,
                               spiDriver.SpiChannel[channelID].SpiBufferBase);
-      Spi_Delay(5000);
+      Spi_Delay(500);
     }
-    Control_CSN(headJob, HIGH);
+    Spi_ChannelType channelID = spiDriver.SpiJob[headJob].ChannelLink[255];
+    Spi_Delay(7000);
+    Spi_Transaction_Channel(spiDriver.SpiChannel[channelID].SpiChannelId,
+                              spiDriver.SpiChannel[channelID].SpiBufferBase);
     //set status for job
     setJobStatus(headJob, SPI_JOB_OK);
     //call the call-back funtion
-    (*spiDriver.SpiJob[headJob].SpiJobEndNotification)();
+    //(*spiDriver.SpiJob[headJob].SpiJobEndNotification)();
+    Control_CSN(headJob, HIGH);
   }
 #endif
   setDriverStatus(SPI_IDLE);

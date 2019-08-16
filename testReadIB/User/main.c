@@ -6,6 +6,14 @@
 #include "exti.h"
 #include "itc.h"
 #include "spi.h"
+#include "mymacro.h"
+
+#define SLAVE_1_JOB 1
+#define SLAVE_2_JOB 2
+
+uint8 bt1_flag = DISABLE;
+uint8 bt2_flag = DISABLE;
+uint8 btstop_flag = DISABLE;
 
 Spi_ChannelConfigType spiChannel[SPI_MAX_CHANNEL+1];
 Spi_JobConfigType spiJob[SPI_MAX_JOB+1];
@@ -18,15 +26,12 @@ void Handle_Job_Finish_1 (void);
 void Handle_Job_Finish_2 (void);
 void SPI_Config(void);
 
-/* delay ms */
-void delay(unsigned long int n);
-
 Spi_BufferType user_buffer[4];
 
 void main (void) {
   Clk_Init();
   GPIO_Init();
-  Itc_Init();
+  //Itc_Init();
   Exti_Init();
   Tim4_Init();
   /* SPI Driver - suppose they are configed in advance*/
@@ -34,33 +39,88 @@ void main (void) {
   Spi_Init(&spiDriver);
   __enable_interrupt(); //enable global interrupt
   while(1) {
+    
+    if(bt1_flag) {
+      user_buffer[3]='b'; //['b',0,0,0]
+      user_buffer[2]='b';
+      user_buffer[1]='b';
+      user_buffer[0]='b';
+    
+      Spi_WriteIB(4, user_buffer);
+      //Spi_WriteIB(2, user_buffer);
+      spiDriver.SpiSequence[1].JobLink[1] = SLAVE_1_JOB;
+      spiDriver.SpiSequence[1].JobLink[2] = SLAVE_2_JOB;
+      spiDriver.SpiSequence[1].JobNum = 2;
+      Spi_AsyncTransmit(1);
+      
+      bt1_flag = DISABLE;
+    }
+
+    if(bt2_flag) {
+      
+      user_buffer[3]='b'; //['b',0,0,0]
+      user_buffer[2]='b';
+      user_buffer[1]='b';
+      user_buffer[0]='b';
+    
+      //Spi_WriteIB(4, user_buffer);
+      Spi_WriteIB(2, user_buffer);
+      spiDriver.SpiSequence[1].JobLink[1] = SLAVE_1_JOB;
+      spiDriver.SpiSequence[1].JobLink[2] = SLAVE_2_JOB;
+      spiDriver.SpiSequence[1].JobNum = 2;
+      Spi_AsyncTransmit(1);
+      bt2_flag = DISABLE;
+    }
+
+    if(btstop_flag) {
+      user_buffer[3]='s'; //['b',0,0,0]
+      user_buffer[2]='s';
+      user_buffer[1]='s';
+      user_buffer[0]='s';
+    
+      Spi_WriteIB(4, user_buffer);
+      Spi_WriteIB(2, user_buffer);
+      spiDriver.SpiSequence[1].JobLink[1] = SLAVE_1_JOB;
+      spiDriver.SpiSequence[1].JobLink[2] = SLAVE_2_JOB;
+      spiDriver.SpiSequence[1].JobNum = 2;
+      Spi_AsyncTransmit(1);
+      
+      btstop_flag = DISABLE;
+    }
   }
-}
-
-
-void delay(unsigned long int n) {
-  timeCount = 0;
-  while (timeCount != n) {};
 }
 
 #pragma vector = 11 //9+2
 __interrupt void EXTI_Handle_Bit_button_1 (void) {
-  if(Spi_GetStatus() == SPI_IDLE) {
-    user_buffer[0]='b'; //['b',0,0,0]
-    
-    Spi_WriteIB(1, user_buffer);
-    spiDriver.SpiSequence[1].JobLink[1] = 1;
-    spiDriver.SpiSequence[1].JobNum = 1;
-    Spi_AsyncTransmit(spiDriver.SpiSequence[1].SpiSequenceId);
-    
-    Spi_ReadIB(2, user_buffer);
-  }
+  
+  bt1_flag=ENABLE;
+  
   sbi(EXTI->SR1, 1); //clear flag by set this bit
 }
 
-#pragma vector = 10 //8+2
+#pragma vector = 12
 __interrupt void EXTI_Handle_Bit_button_2 (void) {
-  sbi(EXTI->SR1, 0); //clear flag by set this bit
+  if(bt1_flag==ENABLE) {
+    Spi_Job_Cancel(SLAVE_1_JOB);
+    bt2_flag=ENABLE;
+  }
+  if(Spi_GetStatus() == SPI_IDLE) {
+    bt2_flag=ENABLE;
+  }
+  sbi(EXTI->SR1, 2); //clear flag by set this bit
+}
+
+#pragma vector = 13
+__interrupt void EXTI_Handle_Bit_button_stop (void) {
+  if(Spi_GetStatus() == SPI_IDLE) {
+    btstop_flag=ENABLE;
+  }
+  sbi(EXTI->SR1, 3); //clear flag by set this bit
+}
+
+#pragma vector = 14
+__interrupt void EXTI_Handle_Bit_button_cancel (void) {
+  sbi(EXTI->SR1, 4); //clear flag by set this bit
 }
 
 #pragma vector=27 //25+2
@@ -142,11 +202,11 @@ void SPI_Config (void) {
   spiDriver.SpiJob[1].SpiJobId=1;
   spiDriver.SpiJob[2].SpiJobId=2;
   /* chip select pin */
-  spiDriver.SpiJob[1].CS_pin = 0;
-  spiDriver.SpiJob[2].CS_pin = 1;
+  spiDriver.SpiJob[1].CS_pin = 2;
+  spiDriver.SpiJob[2].CS_pin = 3;
   /* port chip select */
-  spiDriver.SpiJob[1].GPIO_port = GPIOA;
-  spiDriver.SpiJob[2].GPIO_port = GPIOA;
+  spiDriver.SpiJob[1].GPIO_port = GPIOB;
+  spiDriver.SpiJob[2].GPIO_port = GPIOB;
   /* priority of each job */
   spiDriver.SpiJob[1].SpiJobPriority = 0;
   spiDriver.SpiJob[2].SpiJobPriority = 1;
@@ -156,12 +216,12 @@ void SPI_Config (void) {
   //muon goi ham thi (*(spiJob[0]->SpiJobEndNotification)) ()
   /* fixed link of channel */
   /* 1,3 2,4 is channel's id */
-  spiDriver.SpiJob[1].ChannelLink[1]=1;
-  spiDriver.SpiJob[2].ChannelLink[1]=3;
-  for(uint16 i=2; i<=255; i++) {
-    spiDriver.SpiJob[1].ChannelLink[i]=2;
-    spiDriver.SpiJob[2].ChannelLink[i]=4;
+  for(uint16 i=1; i<=254; i++) {
+    spiDriver.SpiJob[1].ChannelLink[i]=1;
+    spiDriver.SpiJob[2].ChannelLink[i]=3;
   }
+  spiDriver.SpiJob[1].ChannelLink[255]=2;
+  spiDriver.SpiJob[2].ChannelLink[255]=4;
   /*SPI sequence
   * by default:
   * - we have only 1 sequence

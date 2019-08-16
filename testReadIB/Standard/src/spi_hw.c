@@ -1,4 +1,5 @@
 #include "spi_hw.h"
+#include "tim4.h"
 
 void SPI_HW_Init(SPI_FirstBit_TypeDef SPI_FirstBit,
               SPI_BaudRatePrescaler_TypeDef SPI_BaudRatePrescaler,
@@ -45,11 +46,12 @@ void SPI_HW_Cmd(uint8_t NewState)
 
 void SPI_HW_Transmit(uint8_t value) {
   SPI->DR = value;
-  while(!bit_is_set(SPI->SR, 1)) {} //wait trans completed
+  while(bit_is_set(SPI->SR, 1)) {} //wait trans completed
 }
 
 uint8_t SPI_HW_Transync(uint8_t value) {
   SPI->DR = value;
-  while(!bit_is_set(SPI->SR, 1)) {} //wait trans completed
+  
+  while(bit_is_set(SPI->SR, 1)) {} //wait trans completed
   return SPI->DR;
 }

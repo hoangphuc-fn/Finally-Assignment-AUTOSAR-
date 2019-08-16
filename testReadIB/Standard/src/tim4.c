@@ -15,3 +15,8 @@ void Tim4_Init (void) {
   TIM4->IER |= (1<<0); //enable interrupt update
   TIM4->CR1 |= (1<<0); //enable timer4
 }
+
+void delay(unsigned long int n) {
+  timeCount = 0;
+  while (timeCount != n) {};
+}

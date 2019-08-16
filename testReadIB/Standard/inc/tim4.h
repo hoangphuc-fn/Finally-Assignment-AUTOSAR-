@@ -24,5 +24,6 @@ TIM4_TypeDef;
 extern unsigned long int timeCount;
 
 void Tim4_Init (void);
-
+/* delay ms */
+void delay(unsigned long int n);
 #endif /* __TIM4_H */

@@ -21,30 +21,30 @@ void GPIO_Init() {
   /* button */
   /* BUTTON SLAVE 1 */
   cbi(GPIOC->DDR, 1); //input mode
-  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
+  sbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
   sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
   /* BUTTON SLAVE 2 */
-  cbi(GPIOC->DDR, 1); //input mode
-  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
-  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
-  /* BUTTON CANCEL */
-  cbi(GPIOC->DDR, 1); //input mode
-  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
-  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  cbi(GPIOA->DDR, 2); //input mode
+  sbi(GPIOA->CR1, 2); //floating(0), pull-up(1)
+  sbi(GPIOA->CR2, 2); //interrupt en(1), interrupt dis(0)
   /* BUTTON STOP */
-  cbi(GPIOC->DDR, 1); //input mode
-  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
-  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  cbi(GPIOA->DDR, 3); //input mode
+  sbi(GPIOA->CR1, 3); //floating(0), pull-up(1)
+  sbi(GPIOA->CR2, 3); //interrupt en(1), interrupt dis(0)
+  /* BUTTON CANCEL */
+  cbi(GPIOA->DDR, 4); //input mode
+  sbi(GPIOA->CR1, 4); //floating(0), pull-up(1)
+  sbi(GPIOA->CR2, 4); //interrupt en(1), interrupt dis(0)
   
   /* LED */
   /* LED SLAVE 1 */
-  sbi(GPIOC->DDR, 1);
-  sbi(GPIOC->CR1, 1);
-  sbi(GPIOC->CR2, 1);
+  sbi(GPIOB->DDR, 0);
+  sbi(GPIOB->CR1, 0);
+  sbi(GPIOB->CR2, 0);
   /* LED SLAVE 2 */
-  sbi(GPIOC->DDR, 1);
-  sbi(GPIOC->CR1, 1);
-  sbi(GPIOC->CR2, 1);
+  sbi(GPIOB->DDR, 1);
+  sbi(GPIOB->CR1, 1);
+  sbi(GPIOB->CR2, 1);
   
   /* SPI Init GPIO */
   sbi(GPIOB->DDR, 6);   // PA6 - MOSI - OUTPUT
@@ -60,10 +60,15 @@ void GPIO_Init() {
   sbi(GPIOB->CR2, 5);   // fast mode
   cbi(GPIOB->ODR, 5);   // pull low SCK
   
-  sbi(GPIOB->DDR, 4);   // PE7 - NSS - OUTPUT
-  sbi(GPIOB->CR1, 4);   // push-pull
-  sbi(GPIOB->CR2, 4);   // high
-  sbi(GPIOB->ODR, 4);   // pull high
+  sbi(GPIOB->DDR, 2);   // PE7 - NSS - OUTPUT
+  sbi(GPIOB->CR1, 2);   // push-pull
+  sbi(GPIOB->CR2, 2);   // high
+  sbi(GPIOB->ODR, 2);   // pull high
+  
+  sbi(GPIOB->DDR, 3);   // PE7 - NSS - OUTPUT
+  sbi(GPIOB->CR1, 3);   // push-pull
+  sbi(GPIOB->CR2, 3);   // high
+  sbi(GPIOB->ODR, 3);   // pull high
 }
 void GPIO_Write_Bit(GPIO_TypeDef *GPIO, uint8_t bit, uint8_t state) {
 	if(state == ON) {
