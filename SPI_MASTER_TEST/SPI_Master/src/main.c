@@ -16,16 +16,28 @@ void delay(unsigned long int n);
 void main (void) {
   Clk_Init();
   GPIO_Init();
+  
+  sbi(GPIOB->DDR, 2);   // PC6 - SCK - OUTPUT
+  sbi(GPIOB->CR1, 2);   // push-pull
+  sbi(GPIOB->CR2, 2);   // fast mode
+  sbi(GPIOB->ODR, 2);   // pull high
+  
+  sbi(GPIOB->DDR, 3);   // PC6 - SCK - OUTPUT
+  sbi(GPIOB->CR1, 3);   // push-pull
+  sbi(GPIOB->CR2, 3);   // fast mode
+  sbi(GPIOB->ODR, 3);   // pull high
+  
   Itc_Init();
   Exti_Init();
   Tim4_Init();
-  LCD_Init();
+  //LCD_Init();
   SPI_Init(SPI_FirstBit_MSB, SPI_BaudRatePrescaler_8, SPI_Mode_Master, SPI_CPOL_Low, \
            SPI_CPHA_1Edge, SPI_Direction_2Lines_FullDuplex, SPI_NSS_Soft, 0x07);
   SPI->CR3 |= (1<<6);
   SPI_Cmd(ENABLE);
   __enable_interrupt(); //enable global interrupt
   while(1) {
+    cbi(GPIOB->ODR, 3);   // pull low
   }
 }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>2040115688</Checksum>
+        <Checksum>2972420096</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -38,7 +38,8 @@
         <Count>0</Count>
     </Breakpoints>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\src\lcd.c" ""</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>

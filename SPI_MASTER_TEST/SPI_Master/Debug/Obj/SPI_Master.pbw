@@ -4290,182 +4290,182 @@
     "scope": null
   },
   {
-    "ID": "c:clk.h@27@macro@__CONFIG_H",
+    "ID": "c:clk.h@28@macro@__CONFIG_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__CONFIG_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "__CONFIG_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@90@macro@CLK_SYSCLKSource_HSI",
+    "ID": "c:clk.h@96@macro@CLK_SYSCLKSource_HSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKSource_HSI",
     "location": {
       "column": "10",
       "line": "7",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_HSI",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@168@macro@CLK_SYSCLKSource_LSI",
+    "ID": "c:clk.h@175@macro@CLK_SYSCLKSource_LSI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKSource_LSI",
     "location": {
       "column": "10",
       "line": "8",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_LSI",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@246@macro@CLK_SYSCLKSource_HSE",
+    "ID": "c:clk.h@254@macro@CLK_SYSCLKSource_HSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKSource_HSE",
     "location": {
       "column": "10",
       "line": "9",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_HSE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@324@macro@CLK_SYSCLKSource_LSE",
+    "ID": "c:clk.h@333@macro@CLK_SYSCLKSource_LSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKSource_LSE",
     "location": {
       "column": "10",
       "line": "10",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKSource_LSE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@403@macro@CLK_SYSCLKDiv_1",
+    "ID": "c:clk.h@414@macro@CLK_SYSCLKDiv_1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_1",
     "location": {
       "column": "10",
       "line": "12",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_1",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@477@macro@CLK_SYSCLKDiv_2",
+    "ID": "c:clk.h@489@macro@CLK_SYSCLKDiv_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_2",
     "location": {
       "column": "10",
       "line": "13",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_2",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@551@macro@CLK_SYSCLKDiv_4",
+    "ID": "c:clk.h@564@macro@CLK_SYSCLKDiv_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_4",
     "location": {
       "column": "10",
       "line": "14",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_4",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@625@macro@CLK_SYSCLKDiv_8",
+    "ID": "c:clk.h@639@macro@CLK_SYSCLKDiv_8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_8",
     "location": {
       "column": "10",
       "line": "15",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_8",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@699@macro@CLK_SYSCLKDiv_16",
+    "ID": "c:clk.h@714@macro@CLK_SYSCLKDiv_16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_16",
     "location": {
       "column": "10",
       "line": "16",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_16",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@774@macro@CLK_SYSCLKDiv_32",
+    "ID": "c:clk.h@790@macro@CLK_SYSCLKDiv_32",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_32",
     "location": {
       "column": "10",
       "line": "17",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_32",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@849@macro@CLK_SYSCLKDiv_64",
+    "ID": "c:clk.h@866@macro@CLK_SYSCLKDiv_64",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_64",
     "location": {
       "column": "10",
       "line": "18",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_64",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@924@macro@CLK_SYSCLKDiv_128",
+    "ID": "c:clk.h@942@macro@CLK_SYSCLKDiv_128",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_SYSCLKDiv_128",
     "location": {
       "column": "10",
       "line": "19",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_SYSCLKDiv_128",
     "origin": "user_include",
@@ -4479,7 +4479,7 @@
     "location": {
       "column": "16",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "members": [
       {
@@ -4490,7 +4490,7 @@
         "location": {
           "column": "20",
           "line": "23",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "CKDIVR",
         "origin": "user_include",
@@ -4504,7 +4504,7 @@
         "location": {
           "column": "20",
           "line": "24",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "CRTCR",
         "origin": "user_include",
@@ -4518,7 +4518,7 @@
         "location": {
           "column": "20",
           "line": "25",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "ICKCR",
         "origin": "user_include",
@@ -4532,7 +4532,7 @@
         "location": {
           "column": "20",
           "line": "26",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "PCKENR1",
         "origin": "user_include",
@@ -4546,7 +4546,7 @@
         "location": {
           "column": "20",
           "line": "27",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "PCKENR2",
         "origin": "user_include",
@@ -4560,7 +4560,7 @@
         "location": {
           "column": "20",
           "line": "28",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "CCOR",
         "origin": "user_include",
@@ -4574,7 +4574,7 @@
         "location": {
           "column": "20",
           "line": "29",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "ECKCR",
         "origin": "user_include",
@@ -4588,7 +4588,7 @@
         "location": {
           "column": "20",
           "line": "30",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "SCSR",
         "origin": "user_include",
@@ -4602,7 +4602,7 @@
         "location": {
           "column": "20",
           "line": "31",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "SWR",
         "origin": "user_include",
@@ -4616,7 +4616,7 @@
         "location": {
           "column": "20",
           "line": "32",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "SWCR",
         "origin": "user_include",
@@ -4630,7 +4630,7 @@
         "location": {
           "column": "20",
           "line": "33",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "CSSR",
         "origin": "user_include",
@@ -4644,7 +4644,7 @@
         "location": {
           "column": "20",
           "line": "34",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "CBEEPR",
         "origin": "user_include",
@@ -4658,7 +4658,7 @@
         "location": {
           "column": "20",
           "line": "35",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "HSICALR",
         "origin": "user_include",
@@ -4672,7 +4672,7 @@
         "location": {
           "column": "20",
           "line": "36",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "HSITRIMR",
         "origin": "user_include",
@@ -4686,7 +4686,7 @@
         "location": {
           "column": "20",
           "line": "37",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "HSIUNLCKR",
         "origin": "user_include",
@@ -4700,7 +4700,7 @@
         "location": {
           "column": "20",
           "line": "38",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "REGCSR",
         "origin": "user_include",
@@ -4714,7 +4714,7 @@
         "location": {
           "column": "20",
           "line": "39",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
         },
         "name": "PCKENR3",
         "origin": "user_include",
@@ -4733,35 +4733,35 @@
     "location": {
       "column": "1",
       "line": "41",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "CLK_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@2204@macro@System_Clock_BASE",
+    "ID": "c:clk.h@2245@macro@System_Clock_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "System_Clock_BASE",
     "location": {
       "column": "9",
       "line": "42",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "System_Clock_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:clk.h@2266@macro@System_Clock",
+    "ID": "c:clk.h@2308@macro@System_Clock",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "System_Clock",
     "location": {
       "column": "9",
       "line": "43",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "System_Clock",
     "origin": "user_include",
@@ -4775,7 +4775,7 @@
     "location": {
       "column": "6",
       "line": "45",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "Clk_Init",
     "origin": "user_include",
@@ -4789,7 +4789,7 @@
     "location": {
       "column": "6",
       "line": "45",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\clk.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\clk.h"
     },
     "name": "Clk_Init",
     "origin": "user_include",
@@ -4817,105 +4817,105 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\clk.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\clk.c"
     },
     "name": "Clk_Init",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@29@macro@__MY_MACRO_H",
+    "ID": "c:mymacro.h@30@macro@__MY_MACRO_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__MY_MACRO_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "__MY_MACRO_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@51@macro@ENABLE",
+    "ID": "c:mymacro.h@54@macro@ENABLE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ENABLE",
     "location": {
       "column": "9",
       "line": "4",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "ENABLE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@68@macro@DISABLE",
+    "ID": "c:mymacro.h@72@macro@DISABLE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DISABLE",
     "location": {
       "column": "9",
       "line": "5",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "DISABLE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@107@macro@sbi",
+    "ID": "c:mymacro.h@114@macro@sbi",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "sbi",
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "sbi",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@155@macro@cbi",
+    "ID": "c:mymacro.h@164@macro@cbi",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "cbi",
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "cbi",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:mymacro.h@216@macro@bit_is_set",
+    "ID": "c:mymacro.h@228@macro@bit_is_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "bit_is_set",
     "location": {
       "column": "9",
       "line": "13",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\mymacro.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\mymacro.h"
     },
     "name": "bit_is_set",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:exti.h@25@macro@__EXTI_H",
+    "ID": "c:exti.h@26@macro@__EXTI_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__EXTI_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "__EXTI_H",
     "origin": "user_include",
@@ -4929,7 +4929,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "members": [
       {
@@ -4940,7 +4940,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -4954,7 +4954,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -4968,7 +4968,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -4982,7 +4982,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "SR1",
         "origin": "user_include",
@@ -4996,7 +4996,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "SR2",
         "origin": "user_include",
@@ -5010,7 +5010,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
         },
         "name": "CONF1",
         "origin": "user_include",
@@ -5029,35 +5029,35 @@
     "location": {
       "column": "1",
       "line": "16",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "EXTI_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:exti.h@574@macro@EXTI_BASE",
+    "ID": "c:exti.h@591@macro@EXTI_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "EXTI_BASE",
     "location": {
       "column": "9",
       "line": "18",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "EXTI_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:exti.h@627@macro@EXTI",
+    "ID": "c:exti.h@645@macro@EXTI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "EXTI",
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "EXTI",
     "origin": "user_include",
@@ -5071,7 +5071,7 @@
     "location": {
       "column": "6",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "Exti_Init",
     "origin": "user_include",
@@ -5085,7 +5085,7 @@
     "location": {
       "column": "6",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\exti.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\exti.h"
     },
     "name": "Exti_Init",
     "origin": "user_include",
@@ -5099,21 +5099,21 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\exti.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\exti.c"
     },
     "name": "Exti_Init",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@25@macro@__GPIO_H",
+    "ID": "c:gpio.h@26@macro@__GPIO_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__GPIO_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "__GPIO_H",
     "origin": "user_include",
@@ -5127,7 +5127,7 @@
     "location": {
       "column": "16",
       "line": "9",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "members": [
       {
@@ -5138,7 +5138,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
         },
         "name": "ODR",
         "origin": "user_include",
@@ -5152,7 +5152,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
         },
         "name": "IDR",
         "origin": "user_include",
@@ -5166,7 +5166,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
         },
         "name": "DDR",
         "origin": "user_include",
@@ -5180,7 +5180,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -5194,7 +5194,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -5213,301 +5213,301 @@
     "location": {
       "column": "1",
       "line": "17",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@470@macro@GPIOA_BASE",
+    "ID": "c:gpio.h@488@macro@GPIOA_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_BASE",
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOA_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@523@macro@GPIOB_BASE",
+    "ID": "c:gpio.h@542@macro@GPIOB_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB_BASE",
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOB_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@576@macro@GPIOC_BASE",
+    "ID": "c:gpio.h@596@macro@GPIOC_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC_BASE",
     "location": {
       "column": "9",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOC_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@629@macro@GPIOD_BASE",
+    "ID": "c:gpio.h@650@macro@GPIOD_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD_BASE",
     "location": {
       "column": "9",
       "line": "22",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOD_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@682@macro@GPIOE_BASE",
+    "ID": "c:gpio.h@704@macro@GPIOE_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_BASE",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOE_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@735@macro@GPIOF_BASE",
+    "ID": "c:gpio.h@758@macro@GPIOF_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF_BASE",
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOF_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@789@macro@GPIOA",
+    "ID": "c:gpio.h@814@macro@GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA",
     "location": {
       "column": "9",
       "line": "26",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOA",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@855@macro@GPIOB",
+    "ID": "c:gpio.h@881@macro@GPIOB",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB",
     "location": {
       "column": "9",
       "line": "27",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOB",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@921@macro@GPIOC",
+    "ID": "c:gpio.h@948@macro@GPIOC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC",
     "location": {
       "column": "9",
       "line": "28",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOC",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@987@macro@GPIOD",
+    "ID": "c:gpio.h@1015@macro@GPIOD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD",
     "location": {
       "column": "9",
       "line": "29",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOD",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1053@macro@GPIOE",
+    "ID": "c:gpio.h@1082@macro@GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE",
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1119@macro@GPIOF",
+    "ID": "c:gpio.h@1149@macro@GPIOF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF",
     "location": {
       "column": "9",
       "line": "31",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIOF",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1259@macro@ON",
+    "ID": "c:gpio.h@1293@macro@ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ON",
     "location": {
       "column": "9",
       "line": "35",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "ON",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1272@macro@OFF",
+    "ID": "c:gpio.h@1307@macro@OFF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "OFF",
     "location": {
       "column": "9",
       "line": "36",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "OFF",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1286@macro@PRESS",
+    "ID": "c:gpio.h@1322@macro@PRESS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PRESS",
     "location": {
       "column": "9",
       "line": "37",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "PRESS",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1302@macro@UNPRESS",
+    "ID": "c:gpio.h@1339@macro@UNPRESS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UNPRESS",
     "location": {
       "column": "9",
       "line": "38",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "UNPRESS",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1394@macro@Togle_Led_Green",
+    "ID": "c:gpio.h@1435@macro@Togle_Led_Green",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Togle_Led_Green",
     "location": {
       "column": "9",
       "line": "42",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "Togle_Led_Green",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1508@macro@Turn_Led_Green",
+    "ID": "c:gpio.h@1551@macro@Turn_Led_Green",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Turn_Led_Green",
     "location": {
       "column": "9",
       "line": "44",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "Turn_Led_Green",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1614@macro@Togle_Led_Blue",
+    "ID": "c:gpio.h@1659@macro@Togle_Led_Blue",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Togle_Led_Blue",
     "location": {
       "column": "9",
       "line": "46",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "Togle_Led_Blue",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1727@macro@Turn_Led_Blue",
+    "ID": "c:gpio.h@1774@macro@Turn_Led_Blue",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Turn_Led_Blue",
     "location": {
       "column": "9",
       "line": "48",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "Turn_Led_Blue",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:gpio.h@1832@macro@Check_User_Btn",
+    "ID": "c:gpio.h@1881@macro@Check_User_Btn",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Check_User_Btn",
     "location": {
       "column": "9",
       "line": "50",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "Check_User_Btn",
     "origin": "user_include",
@@ -5521,7 +5521,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Init",
     "origin": "user_include",
@@ -5535,7 +5535,7 @@
     "location": {
       "column": "6",
       "line": "55",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Init",
     "origin": "user_include",
@@ -5549,7 +5549,7 @@
     "location": {
       "column": "6",
       "line": "56",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Write_Bit",
     "origin": "user_include",
@@ -5563,7 +5563,7 @@
     "location": {
       "column": "6",
       "line": "56",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Write_Bit",
     "origin": "user_include",
@@ -5577,7 +5577,7 @@
     "location": {
       "column": "6",
       "line": "57",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Write",
     "origin": "user_include",
@@ -5591,7 +5591,7 @@
     "location": {
       "column": "6",
       "line": "57",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Write",
     "origin": "user_include",
@@ -5605,7 +5605,7 @@
     "location": {
       "column": "9",
       "line": "58",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Read_Bit",
     "origin": "user_include",
@@ -5619,7 +5619,7 @@
     "location": {
       "column": "9",
       "line": "58",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Read_Bit",
     "origin": "user_include",
@@ -5633,7 +5633,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Read",
     "origin": "user_include",
@@ -5647,7 +5647,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\gpio.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\gpio.h"
     },
     "name": "GPIO_Read",
     "origin": "user_include",
@@ -5661,7 +5661,7 @@
     "location": {
       "column": "6",
       "line": "20",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\gpio.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\gpio.c"
     },
     "name": "GPIO_Init",
     "origin": "project_file",
@@ -5675,7 +5675,7 @@
     "location": {
       "column": "6",
       "line": "44",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\gpio.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\gpio.c"
     },
     "name": "GPIO_Write_Bit",
     "origin": "project_file",
@@ -5689,7 +5689,7 @@
     "location": {
       "column": "6",
       "line": "51",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\gpio.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\gpio.c"
     },
     "name": "GPIO_Write",
     "origin": "project_file",
@@ -5703,7 +5703,7 @@
     "location": {
       "column": "9",
       "line": "54",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\gpio.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\gpio.c"
     },
     "name": "GPIO_Read_Bit",
     "origin": "project_file",
@@ -5717,7 +5717,7 @@
     "location": {
       "column": "9",
       "line": "57",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\gpio.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\gpio.c"
     },
     "name": "GPIO_Read",
     "origin": "project_file",
@@ -8524,7 +8524,7 @@
     "location": {
       "column": "10",
       "line": "4",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "char_list",
     "origin": "project_file",
@@ -8538,7 +8538,7 @@
     "location": {
       "column": "9",
       "line": "13",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "buffer",
     "origin": "project_file",
@@ -8552,7 +8552,7 @@
     "location": {
       "column": "6",
       "line": "15",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "LCD_Init",
     "origin": "project_file",
@@ -8566,7 +8566,7 @@
     "location": {
       "column": "6",
       "line": "41",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "Start_Write_Ram",
     "origin": "project_file",
@@ -8580,7 +8580,7 @@
     "location": {
       "column": "6",
       "line": "46",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "Lcd_Clear_Col",
     "origin": "project_file",
@@ -8594,21 +8594,21 @@
     "location": {
       "column": "6",
       "line": "113",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "Lcd_Clear_All",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:lcd.c@2949@F@Lcd_Clear_All@i",
+    "ID": "c:lcd.c@3063@F@Lcd_Clear_All@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
       "line": "115",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -8622,21 +8622,21 @@
     "location": {
       "column": "6",
       "line": "120",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "Lcd_Print_Char",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:lcd.c@3254@F@Lcd_Print_Char@character",
+    "ID": "c:lcd.c@3380@F@Lcd_Print_Char@character",
     "What": "Variable",
     "defdec": "Def",
     "display": "character",
     "location": {
       "column": "11",
       "line": "127",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "character",
     "origin": "project_file",
@@ -8650,21 +8650,21 @@
     "location": {
       "column": "6",
       "line": "287",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\lcd.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\lcd.c"
     },
     "name": "Lcd_Print_String",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:lcd.h@24@macro@__LCD_H",
+    "ID": "c:lcd.h@25@macro@__LCD_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__LCD_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "__LCD_H",
     "origin": "user_include",
@@ -8678,7 +8678,7 @@
     "location": {
       "column": "16",
       "line": "8",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "members": [
       {
@@ -8689,7 +8689,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -8703,7 +8703,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -8717,7 +8717,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -8731,7 +8731,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "FRQ",
         "origin": "user_include",
@@ -8745,7 +8745,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "PM",
         "origin": "user_include",
@@ -8759,7 +8759,7 @@
         "location": {
           "column": "11",
           "line": "15",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "RESERVED1",
         "origin": "user_include",
@@ -8773,7 +8773,7 @@
         "location": {
           "column": "20",
           "line": "16",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "RAM",
         "origin": "user_include",
@@ -8787,7 +8787,7 @@
         "location": {
           "column": "11",
           "line": "17",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "RESERVED2",
         "origin": "user_include",
@@ -8801,7 +8801,7 @@
         "location": {
           "column": "20",
           "line": "18",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
         },
         "name": "CR4",
         "origin": "user_include",
@@ -8820,35 +8820,35 @@
     "location": {
       "column": "1",
       "line": "20",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "LCD_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:lcd.h@657@macro@LCD_BASE",
+    "ID": "c:lcd.h@678@macro@LCD_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LCD_BASE",
     "location": {
       "column": "9",
       "line": "22",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "LCD_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:lcd.h@710@macro@LCD",
+    "ID": "c:lcd.h@732@macro@LCD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LCD",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "LCD",
     "origin": "user_include",
@@ -8862,7 +8862,7 @@
     "location": {
       "column": "6",
       "line": "25",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -8876,7 +8876,7 @@
     "location": {
       "column": "6",
       "line": "25",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -8890,7 +8890,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Start_Write_Ram",
     "origin": "user_include",
@@ -8904,7 +8904,7 @@
     "location": {
       "column": "6",
       "line": "26",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Start_Write_Ram",
     "origin": "user_include",
@@ -8918,7 +8918,7 @@
     "location": {
       "column": "6",
       "line": "27",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Clear_Col",
     "origin": "user_include",
@@ -8932,7 +8932,7 @@
     "location": {
       "column": "6",
       "line": "27",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Clear_Col",
     "origin": "user_include",
@@ -8946,7 +8946,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Clear_All",
     "origin": "user_include",
@@ -8960,7 +8960,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Clear_All",
     "origin": "user_include",
@@ -8974,7 +8974,7 @@
     "location": {
       "column": "6",
       "line": "29",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Print_Char",
     "origin": "user_include",
@@ -8988,7 +8988,7 @@
     "location": {
       "column": "6",
       "line": "29",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Print_Char",
     "origin": "user_include",
@@ -9002,7 +9002,7 @@
     "location": {
       "column": "6",
       "line": "30",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Print_String",
     "origin": "user_include",
@@ -9016,21 +9016,21 @@
     "location": {
       "column": "6",
       "line": "30",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\lcd.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\lcd.h"
     },
     "name": "Lcd_Print_String",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:itc.h@24@macro@__ITC_H",
+    "ID": "c:itc.h@25@macro@__ITC_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__ITC_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "__ITC_H",
     "origin": "user_include",
@@ -9044,7 +9044,7 @@
     "location": {
       "column": "16",
       "line": "7",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "members": [
       {
@@ -9055,7 +9055,7 @@
         "location": {
           "column": "20",
           "line": "9",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR1",
         "origin": "user_include",
@@ -9069,7 +9069,7 @@
         "location": {
           "column": "20",
           "line": "10",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR2",
         "origin": "user_include",
@@ -9083,7 +9083,7 @@
         "location": {
           "column": "20",
           "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR3",
         "origin": "user_include",
@@ -9097,7 +9097,7 @@
         "location": {
           "column": "20",
           "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR4",
         "origin": "user_include",
@@ -9111,7 +9111,7 @@
         "location": {
           "column": "20",
           "line": "13",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR5",
         "origin": "user_include",
@@ -9125,7 +9125,7 @@
         "location": {
           "column": "20",
           "line": "14",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR6",
         "origin": "user_include",
@@ -9139,7 +9139,7 @@
         "location": {
           "column": "20",
           "line": "15",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR7",
         "origin": "user_include",
@@ -9153,7 +9153,7 @@
         "location": {
           "column": "20",
           "line": "16",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
         },
         "name": "ISPR8",
         "origin": "user_include",
@@ -9172,35 +9172,35 @@
     "location": {
       "column": "1",
       "line": "18",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "ITC_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:itc.h@719@macro@ITC_BASE",
+    "ID": "c:itc.h@738@macro@ITC_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ITC_BASE",
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "ITC_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:itc.h@772@macro@ITC",
+    "ID": "c:itc.h@792@macro@ITC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ITC",
     "location": {
       "column": "9",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "ITC",
     "origin": "user_include",
@@ -9214,7 +9214,7 @@
     "location": {
       "column": "6",
       "line": "23",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "Itc_Init",
     "origin": "user_include",
@@ -9228,7 +9228,7 @@
     "location": {
       "column": "6",
       "line": "23",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\itc.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\itc.h"
     },
     "name": "Itc_Init",
     "origin": "user_include",
@@ -10586,7 +10586,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\itc.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\itc.c"
     },
     "name": "Itc_Init",
     "origin": "project_file",
@@ -10663,14 +10663,14 @@
     "scope": null
   },
   {
-    "ID": "c:spi.h@24@macro@__SPI_H",
+    "ID": "c:spi.h@25@macro@__SPI_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__SPI_H",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "__SPI_H",
     "origin": "user_include",
@@ -10690,7 +10690,7 @@
         "location": {
           "column": "3",
           "line": "9",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_2Lines_FullDuplex",
         "origin": "user_include",
@@ -10704,7 +10704,7 @@
         "location": {
           "column": "3",
           "line": "10",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_2Lines_RxOnly",
         "origin": "user_include",
@@ -10718,7 +10718,7 @@
         "location": {
           "column": "3",
           "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_1Line_Rx",
         "origin": "user_include",
@@ -10732,7 +10732,7 @@
         "location": {
           "column": "3",
           "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_1Line_Tx",
         "origin": "user_include",
@@ -10742,7 +10742,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -10762,7 +10762,7 @@
         "location": {
           "column": "3",
           "line": "17",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_NSS_Soft",
         "origin": "user_include",
@@ -10776,7 +10776,7 @@
         "location": {
           "column": "3",
           "line": "18",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_NSS_Hard",
         "origin": "user_include",
@@ -10786,7 +10786,7 @@
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -10806,7 +10806,7 @@
         "location": {
           "column": "3",
           "line": "23",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_Rx",
         "origin": "user_include",
@@ -10820,7 +10820,7 @@
         "location": {
           "column": "3",
           "line": "24",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Direction_Tx",
         "origin": "user_include",
@@ -10830,7 +10830,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -10850,7 +10850,7 @@
         "location": {
           "column": "3",
           "line": "29",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Mode_Master",
         "origin": "user_include",
@@ -10864,7 +10864,7 @@
         "location": {
           "column": "3",
           "line": "30",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_Mode_Slave",
         "origin": "user_include",
@@ -10874,7 +10874,7 @@
     "location": {
       "column": "9",
       "line": "27",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -10894,7 +10894,7 @@
         "location": {
           "column": "3",
           "line": "34",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_2",
         "origin": "user_include",
@@ -10908,7 +10908,7 @@
         "location": {
           "column": "3",
           "line": "35",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_4",
         "origin": "user_include",
@@ -10922,7 +10922,7 @@
         "location": {
           "column": "3",
           "line": "36",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_8",
         "origin": "user_include",
@@ -10936,7 +10936,7 @@
         "location": {
           "column": "3",
           "line": "37",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_16",
         "origin": "user_include",
@@ -10950,7 +10950,7 @@
         "location": {
           "column": "3",
           "line": "38",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_32",
         "origin": "user_include",
@@ -10964,7 +10964,7 @@
         "location": {
           "column": "3",
           "line": "39",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_64",
         "origin": "user_include",
@@ -10978,7 +10978,7 @@
         "location": {
           "column": "3",
           "line": "40",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_128",
         "origin": "user_include",
@@ -10992,7 +10992,7 @@
         "location": {
           "column": "3",
           "line": "41",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_BaudRatePrescaler_256",
         "origin": "user_include",
@@ -11002,7 +11002,7 @@
     "location": {
       "column": "9",
       "line": "33",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11022,7 +11022,7 @@
         "location": {
           "column": "3",
           "line": "46",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CPOL_Low",
         "origin": "user_include",
@@ -11036,7 +11036,7 @@
         "location": {
           "column": "3",
           "line": "47",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CPOL_High",
         "origin": "user_include",
@@ -11046,7 +11046,7 @@
     "location": {
       "column": "9",
       "line": "44",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11066,7 +11066,7 @@
         "location": {
           "column": "3",
           "line": "52",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CPHA_1Edge",
         "origin": "user_include",
@@ -11080,7 +11080,7 @@
         "location": {
           "column": "3",
           "line": "53",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CPHA_2Edge",
         "origin": "user_include",
@@ -11090,7 +11090,7 @@
     "location": {
       "column": "9",
       "line": "50",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11110,7 +11110,7 @@
         "location": {
           "column": "3",
           "line": "58",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FirstBit_MSB",
         "origin": "user_include",
@@ -11124,7 +11124,7 @@
         "location": {
           "column": "3",
           "line": "59",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FirstBit_LSB",
         "origin": "user_include",
@@ -11134,7 +11134,7 @@
     "location": {
       "column": "9",
       "line": "56",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11154,7 +11154,7 @@
         "location": {
           "column": "3",
           "line": "63",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_DMAReq_RX",
         "origin": "user_include",
@@ -11168,7 +11168,7 @@
         "location": {
           "column": "3",
           "line": "64",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_DMAReq_TX",
         "origin": "user_include",
@@ -11178,7 +11178,7 @@
     "location": {
       "column": "9",
       "line": "62",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11198,7 +11198,7 @@
         "location": {
           "column": "3",
           "line": "68",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CRC_RX",
         "origin": "user_include",
@@ -11212,7 +11212,7 @@
         "location": {
           "column": "3",
           "line": "69",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_CRC_TX",
         "origin": "user_include",
@@ -11222,7 +11222,7 @@
     "location": {
       "column": "9",
       "line": "67",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11242,7 +11242,7 @@
         "location": {
           "column": "3",
           "line": "73",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_BSY",
         "origin": "user_include",
@@ -11256,7 +11256,7 @@
         "location": {
           "column": "3",
           "line": "74",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_OVR",
         "origin": "user_include",
@@ -11270,7 +11270,7 @@
         "location": {
           "column": "3",
           "line": "75",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_MODF",
         "origin": "user_include",
@@ -11284,7 +11284,7 @@
         "location": {
           "column": "3",
           "line": "76",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_CRCERR",
         "origin": "user_include",
@@ -11298,7 +11298,7 @@
         "location": {
           "column": "3",
           "line": "77",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_WKUP",
         "origin": "user_include",
@@ -11312,7 +11312,7 @@
         "location": {
           "column": "3",
           "line": "78",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_TXE",
         "origin": "user_include",
@@ -11326,7 +11326,7 @@
         "location": {
           "column": "3",
           "line": "79",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_FLAG_RXNE",
         "origin": "user_include",
@@ -11336,7 +11336,7 @@
     "location": {
       "column": "9",
       "line": "72",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11356,7 +11356,7 @@
         "location": {
           "column": "3",
           "line": "84",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_WKUP",
         "origin": "user_include",
@@ -11370,7 +11370,7 @@
         "location": {
           "column": "3",
           "line": "85",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_OVR",
         "origin": "user_include",
@@ -11384,7 +11384,7 @@
         "location": {
           "column": "3",
           "line": "86",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_MODF",
         "origin": "user_include",
@@ -11398,7 +11398,7 @@
         "location": {
           "column": "3",
           "line": "87",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_CRCERR",
         "origin": "user_include",
@@ -11412,7 +11412,7 @@
         "location": {
           "column": "3",
           "line": "88",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_TXE",
         "origin": "user_include",
@@ -11426,7 +11426,7 @@
         "location": {
           "column": "3",
           "line": "89",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_RXNE",
         "origin": "user_include",
@@ -11440,7 +11440,7 @@
         "location": {
           "column": "3",
           "line": "90",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SPI_IT_ERR",
         "origin": "user_include",
@@ -11450,7 +11450,7 @@
     "location": {
       "column": "9",
       "line": "82",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "",
     "origin": "user_include",
@@ -11464,7 +11464,7 @@
     "location": {
       "column": "16",
       "line": "93",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "members": [
       {
@@ -11475,7 +11475,7 @@
         "location": {
           "column": "20",
           "line": "95",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "CR1",
         "origin": "user_include",
@@ -11489,7 +11489,7 @@
         "location": {
           "column": "20",
           "line": "96",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "CR2",
         "origin": "user_include",
@@ -11503,7 +11503,7 @@
         "location": {
           "column": "20",
           "line": "97",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "CR3",
         "origin": "user_include",
@@ -11517,7 +11517,7 @@
         "location": {
           "column": "20",
           "line": "98",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "SR",
         "origin": "user_include",
@@ -11531,7 +11531,7 @@
         "location": {
           "column": "20",
           "line": "99",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "DR",
         "origin": "user_include",
@@ -11545,7 +11545,7 @@
         "location": {
           "column": "20",
           "line": "100",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "CRCPR",
         "origin": "user_include",
@@ -11559,7 +11559,7 @@
         "location": {
           "column": "20",
           "line": "101",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "RXCRCR",
         "origin": "user_include",
@@ -11573,7 +11573,7 @@
         "location": {
           "column": "20",
           "line": "102",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
         },
         "name": "TXCRCR",
         "origin": "user_include",
@@ -11592,35 +11592,35 @@
     "location": {
       "column": "1",
       "line": "104",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_TypeDef",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:spi.h@4282@macro@SPI_BASE",
+    "ID": "c:spi.h@4387@macro@SPI_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SPI_BASE",
     "location": {
       "column": "9",
       "line": "106",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_BASE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:spi.h@4334@macro@SPI",
+    "ID": "c:spi.h@4440@macro@SPI",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SPI",
     "location": {
       "column": "9",
       "line": "107",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI",
     "origin": "user_include",
@@ -11634,7 +11634,7 @@
     "location": {
       "column": "6",
       "line": "109",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Init",
     "origin": "user_include",
@@ -11648,7 +11648,7 @@
     "location": {
       "column": "6",
       "line": "109",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Init",
     "origin": "user_include",
@@ -11662,7 +11662,7 @@
     "location": {
       "column": "6",
       "line": "114",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Cmd",
     "origin": "user_include",
@@ -11676,7 +11676,7 @@
     "location": {
       "column": "6",
       "line": "114",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Cmd",
     "origin": "user_include",
@@ -11690,7 +11690,7 @@
     "location": {
       "column": "6",
       "line": "115",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Transfer",
     "origin": "user_include",
@@ -11704,7 +11704,7 @@
     "location": {
       "column": "6",
       "line": "115",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Transfer",
     "origin": "user_include",
@@ -11718,7 +11718,7 @@
     "location": {
       "column": "9",
       "line": "116",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Get_DR",
     "origin": "user_include",
@@ -11732,7 +11732,7 @@
     "location": {
       "column": "9",
       "line": "116",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\spi.h"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\spi.h"
     },
     "name": "SPI_Get_DR",
     "origin": "user_include",
@@ -11746,7 +11746,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\spi.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\spi.c"
     },
     "name": "SPI_Init",
     "origin": "project_file",
@@ -11760,7 +11760,7 @@
     "location": {
       "column": "6",
       "line": "34",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\spi.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\spi.c"
     },
     "name": "SPI_Cmd",
     "origin": "project_file",
@@ -11774,7 +11774,7 @@
     "location": {
       "column": "6",
       "line": "46",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\spi.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\spi.c"
     },
     "name": "SPI_Transfer",
     "origin": "project_file",
@@ -11788,278 +11788,10 @@
     "location": {
       "column": "9",
       "line": "51",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\spi.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\spi.c"
     },
     "name": "SPI_Get_DR",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@25@macro@__TIM4_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__TIM4_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "__TIM4_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@TIM4_struct",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "TIM4_struct",
-    "location": {
-      "column": "16",
-      "line": "7",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "members": [
-      {
-        "ID": "c:@S@TIM4_struct@FI@CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CR1",
-        "location": {
-          "column": "20",
-          "line": "9",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "CR1",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CR2",
-        "location": {
-          "column": "20",
-          "line": "10",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "CR2",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@SMCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "SMCR",
-        "location": {
-          "column": "20",
-          "line": "11",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "SMCR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@DER",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "DER",
-        "location": {
-          "column": "20",
-          "line": "12",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "DER",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@IER",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "IER",
-        "location": {
-          "column": "20",
-          "line": "13",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "IER",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@SR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "SR1",
-        "location": {
-          "column": "20",
-          "line": "14",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "SR1",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@EGR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EGR",
-        "location": {
-          "column": "20",
-          "line": "15",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "EGR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@CNTR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CNTR",
-        "location": {
-          "column": "20",
-          "line": "16",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "CNTR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@PSCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PSCR",
-        "location": {
-          "column": "20",
-          "line": "17",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "PSCR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      },
-      {
-        "ID": "c:@S@TIM4_struct@FI@ARR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ARR",
-        "location": {
-          "column": "20",
-          "line": "18",
-          "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-        },
-        "name": "ARR",
-        "origin": "user_include",
-        "scope": "TIM4_struct"
-      }
-    ],
-    "name": "TIM4_struct",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@T@TIM4_TypeDef",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "struct TIM4_struct",
-    "location": {
-      "column": "1",
-      "line": "20",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "TIM4_TypeDef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@699@macro@TIM4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM4_BASE",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "TIM4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:tim4.h@752@macro@TIM4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM4",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "TIM4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeCount",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "timeCount",
-    "location": {
-      "column": "26",
-      "line": "24",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "timeCount",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeCount",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "timeCount",
-    "location": {
-      "column": "26",
-      "line": "24",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "timeCount",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Tim4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Tim4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "Tim4_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Tim4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Tim4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\inc\\tim4.h"
-    },
-    "name": "Tim4_Init",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -12259,6 +11991,274 @@
     "scope": null
   },
   {
+    "ID": "c:tim4.h@26@macro@__TIM4_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__TIM4_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "__TIM4_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@TIM4_struct",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "TIM4_struct",
+    "location": {
+      "column": "16",
+      "line": "7",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@TIM4_struct@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "20",
+          "line": "9",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "20",
+          "line": "10",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@SMCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SMCR",
+        "location": {
+          "column": "20",
+          "line": "11",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "SMCR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@DER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DER",
+        "location": {
+          "column": "20",
+          "line": "12",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "DER",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@IER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "IER",
+        "location": {
+          "column": "20",
+          "line": "13",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "IER",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@SR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR1",
+        "location": {
+          "column": "20",
+          "line": "14",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "SR1",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@EGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EGR",
+        "location": {
+          "column": "20",
+          "line": "15",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "EGR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@CNTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CNTR",
+        "location": {
+          "column": "20",
+          "line": "16",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "CNTR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@PSCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PSCR",
+        "location": {
+          "column": "20",
+          "line": "17",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "PSCR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      },
+      {
+        "ID": "c:@S@TIM4_struct@FI@ARR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ARR",
+        "location": {
+          "column": "20",
+          "line": "18",
+          "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+        },
+        "name": "ARR",
+        "origin": "user_include",
+        "scope": "TIM4_struct"
+      }
+    ],
+    "name": "TIM4_struct",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@T@TIM4_TypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct TIM4_struct",
+    "location": {
+      "column": "1",
+      "line": "20",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "TIM4_TypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@719@macro@TIM4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4_BASE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "TIM4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim4.h@773@macro@TIM4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "TIM4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeCount",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "timeCount",
+    "location": {
+      "column": "26",
+      "line": "24",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "timeCount",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeCount",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "timeCount",
+    "location": {
+      "column": "26",
+      "line": "24",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "timeCount",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Tim4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Tim4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "Tim4_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Tim4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Tim4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\inc\\tim4.h"
+    },
+    "name": "Tim4_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@gui",
     "What": "Variable",
     "defdec": "Def",
@@ -12266,7 +12266,7 @@
     "location": {
       "column": "6",
       "line": "10",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "gui",
     "origin": "project_file",
@@ -12280,7 +12280,7 @@
     "location": {
       "column": "9",
       "line": "11",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "ch",
     "origin": "project_file",
@@ -12294,7 +12294,7 @@
     "location": {
       "column": "6",
       "line": "14",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -12308,7 +12308,7 @@
     "location": {
       "column": "6",
       "line": "16",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -12321,8 +12321,8 @@
     "display": "void delay(unsigned long)",
     "location": {
       "column": "6",
-      "line": "33",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "line": "45",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -12335,8 +12335,8 @@
     "display": "void EXTI_Handle_Bit_1(void)",
     "location": {
       "column": "18",
-      "line": "39",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "line": "51",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "EXTI_Handle_Bit_1",
     "origin": "project_file",
@@ -12349,8 +12349,8 @@
     "display": "void TIM4_UPD_OVF_TRG_IRQHandler(void)",
     "location": {
       "column": "18",
-      "line": "46",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "line": "58",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "TIM4_UPD_OVF_TRG_IRQHandler",
     "origin": "project_file",
@@ -12363,22 +12363,22 @@
     "display": "void SPI_Receive_IRQ(void)",
     "location": {
       "column": "18",
-      "line": "51",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "line": "63",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "SPI_Receive_IRQ",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1196@F@SPI_Receive_IRQ@data_read",
+    "ID": "c:main.c@1571@F@SPI_Receive_IRQ@data_read",
     "What": "Variable",
     "defdec": "Def",
     "display": "data_read",
     "location": {
       "column": "11",
-      "line": "52",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\main.c"
+      "line": "64",
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\main.c"
     },
     "name": "data_read",
     "origin": "project_file",
@@ -12392,7 +12392,7 @@
     "location": {
       "column": "19",
       "line": "3",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\tim4.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\tim4.c"
     },
     "name": "timeCount",
     "origin": "project_file",
@@ -12406,7 +12406,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "C:\\Users\\Hoang Phuc\\Desktop\\STM8L-SPI\\SPI_MASTER\\SPI_Master\\src\\tim4.c"
+      "path": "C:\\Users\\hera.fgatraining\\Desktop\\t\\Finally-Assignment-AUTOSAR-\\SPI_MASTER_TEST\\SPI_Master\\src\\tim4.c"
     },
     "name": "Tim4_Init",
     "origin": "project_file",

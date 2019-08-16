@@ -1,22 +1,22 @@
-"C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\src\itc.c"
+"C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\src\itc.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\Debug\Obj\itc.pbi.dep
+C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\Debug\Obj\itc.pbi.dep
 -o
 itc.pbi
 -I
-C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\src
+C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\src
 -I
-C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc
+C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc
+C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

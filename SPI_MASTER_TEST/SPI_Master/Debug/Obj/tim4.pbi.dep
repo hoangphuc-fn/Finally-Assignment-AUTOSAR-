@@ -1,6 +1,6 @@
 tim4.pbi: \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\src\tim4.c \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc\tim4.h \
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\src\tim4.c \
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc\tim4.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
@@ -9,4 +9,4 @@ tim4.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc/mymacro.h
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc/mymacro.h

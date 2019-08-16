@@ -1,7 +1,7 @@
 exti.pbi: \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\src\exti.c \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc\exti.h \
-  C:\Users\Hoang\ Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\inc/mymacro.h \
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\src\exti.c \
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc\exti.h \
+  C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\inc/mymacro.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \

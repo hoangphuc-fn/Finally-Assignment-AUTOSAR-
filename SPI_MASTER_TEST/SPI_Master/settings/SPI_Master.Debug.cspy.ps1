@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\settings\SPI_Master.Debug.general.xcl" --backend -f "C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\settings\SPI_Master.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\settings\SPI_Master.Debug.general.xcl" --backend -f "C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\settings\SPI_Master.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\settings\SPI_Master.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Hoang Phuc\Desktop\STM8L-SPI\SPI_MASTER\SPI_Master\settings\SPI_Master.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\settings\SPI_Master.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_MASTER_TEST\SPI_Master\settings\SPI_Master.Debug.driver.xcl" 
 }
