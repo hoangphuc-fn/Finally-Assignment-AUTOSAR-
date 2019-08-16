@@ -18,10 +18,34 @@
 */
 
 void GPIO_Init() {
-  /* user button */
+  /* button */
+  /* BUTTON SLAVE 1 */
   cbi(GPIOC->DDR, 1); //input mode
   cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
   sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  /* BUTTON SLAVE 2 */
+  cbi(GPIOC->DDR, 1); //input mode
+  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
+  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  /* BUTTON CANCEL */
+  cbi(GPIOC->DDR, 1); //input mode
+  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
+  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  /* BUTTON STOP */
+  cbi(GPIOC->DDR, 1); //input mode
+  cbi(GPIOC->CR1, 1); //floating(0), pull-up(1)
+  sbi(GPIOC->CR2, 1); //interrupt en(1), interrupt dis(0)
+  
+  /* LED */
+  /* LED SLAVE 1 */
+  sbi(GPIOC->DDR, 1);
+  sbi(GPIOC->CR1, 1);
+  sbi(GPIOC->CR2, 1);
+  /* LED SLAVE 2 */
+  sbi(GPIOC->DDR, 1);
+  sbi(GPIOC->CR1, 1);
+  sbi(GPIOC->CR2, 1);
+  
   /* SPI Init GPIO */
   sbi(GPIOB->DDR, 6);   // PA6 - MOSI - OUTPUT
   sbi(GPIOB->CR1, 6);   // push-pull

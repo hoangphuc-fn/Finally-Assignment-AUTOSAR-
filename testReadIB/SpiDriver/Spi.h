@@ -15,7 +15,7 @@
 /******************************************************************************/
 /*                          Define Standard Type	            	      */
 /******************************************************************************/
-    
+
 #define SpiLevelDelivered 1
 
 typedef uint8 Std_ReturnType;
@@ -205,17 +205,24 @@ typedef Spi_DriverType Spi_ConfigType;
 
 extern Spi_ConfigType spiDriver;
 
+
 /* function declaration */
+
+//additional function
+void Spi_Delay(uint32 t);
 void Control_CSN (Spi_JobType jobID, GPIO_State state);
+void Spi_Transaction_Channel(Spi_ChannelType Channel, Spi_DataBufferType* DataBufferPtr);
+void setJobStatus(Spi_JobType JobID, Spi_JobResultType JobStatus);
+void setSequenceStatus(Spi_SequenceType SequenceID, Spi_SeqResultType SequenceStatus);
+void setDriverStatus(Spi_StatusType DriverStatus);
+
+//standard autosar
+
 void Spi_Init(const Spi_ConfigType* ConfigPtr);
 Std_ReturnType Spi_DeInit(void);
 Std_ReturnType Spi_WriteIB(Spi_ChannelType Channel, const Spi_DataBufferType* DataBufferPtr);
 Std_ReturnType Spi_ReadIB(Spi_ChannelType Channel, Spi_DataBufferType* DataBufferPtr);
-void Spi_Transaction_Channel(Spi_ChannelType Channel, Spi_DataBufferType* DataBufferPtr);
 Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence);
-void setJobStatus(Spi_JobType JobID, Spi_JobResultType JobStatus);
-void setSequenceStatus(Spi_SequenceType SequenceID, Spi_SeqResultType SequenceStatus);
-void setDriverStatus(Spi_StatusType DriverStatus);
 Spi_StatusType Spi_GetStatus(void);
 Spi_JobResultType Spi_GetJobResult(Spi_JobType Job);
 Spi_SeqResultType Spi_GetSequenceResult(Spi_SequenceType Sequence);

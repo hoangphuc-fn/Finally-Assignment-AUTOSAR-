@@ -21,6 +21,8 @@ void SPI_Config(void);
 /* delay ms */
 void delay(unsigned long int n);
 
+Spi_BufferType user_buffer[4];
+
 void main (void) {
   Clk_Init();
   GPIO_Init();
@@ -31,11 +33,6 @@ void main (void) {
   SPI_Config();
   Spi_Init(&spiDriver);
   __enable_interrupt(); //enable global interrupt
-  
-  Spi_BufferType buffer[4] = {0x00, 0x00, 0x00, '1'};
-  Spi_WriteIB(1,buffer);
-  
-  Spi_AsyncTransmit(spiDriver.SpiSequence[1].SpiSequenceId);
   while(1) {
   }
 }
@@ -45,13 +42,27 @@ void delay(unsigned long int n) {
   timeCount = 0;
   while (timeCount != n) {};
 }
-uint8_t count = 1;
+
 #pragma vector = 11 //9+2
-__interrupt void EXTI_Handle_Bit_1 (void) {
-  if(count > 4) count = 1;
-  Spi_WriteIB(spiDriver.SpiChannel[count++].SpiChannelId, NULL);
+__interrupt void EXTI_Handle_Bit_button_1 (void) {
+  if(Spi_GetStatus() == SPI_IDLE) {
+    user_buffer[0]='b'; //['b',0,0,0]
+    
+    Spi_WriteIB(1, user_buffer);
+    spiDriver.SpiSequence[1].JobLink[1] = 1;
+    spiDriver.SpiSequence[1].JobNum = 1;
+    Spi_AsyncTransmit(spiDriver.SpiSequence[1].SpiSequenceId);
+    
+    Spi_ReadIB(2, user_buffer);
+  }
   sbi(EXTI->SR1, 1); //clear flag by set this bit
 }
+
+#pragma vector = 10 //8+2
+__interrupt void EXTI_Handle_Bit_button_2 (void) {
+  sbi(EXTI->SR1, 0); //clear flag by set this bit
+}
+
 #pragma vector=27 //25+2
 __interrupt void TIM4_UPD_OVF_TRG_IRQHandler(void) {
   timeCount++;

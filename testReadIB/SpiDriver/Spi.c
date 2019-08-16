@@ -6,6 +6,10 @@ Spi_JobResultType jobResultStatus[SPI_MAX_JOB+1];
 Spi_SeqResultType seqResultStatus[SPI_MAX_SEQUENCE+1];
 Spi_StatusType    driverResultStatus;
 
+void Spi_Delay(uint32 t) {
+  while((t--) > 1) {};
+}
+
 void setJobStatus(Spi_JobType JobID, Spi_JobResultType JobStatus) {
   jobResultStatus[JobID] = JobStatus;
 }
@@ -109,16 +113,15 @@ Std_ReturnType Spi_ReadIB(Spi_ChannelType Channel, Spi_DataBufferType* DataBuffe
   + rest...
 */
 
-/*
-- Note: 
-  + ham nay dang handle SpiLevelDelivered=LEVEL 1
-  + neu muon LEVEL 0 thi can execute cac job khong dua tren priority
-  + LEVEL 2 -> bo
-*/
-
 Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
   setDriverStatus(SPI_BUSY);
   setSequenceStatus(Sequence, SPI_SEQ_PENDING);
+  
+  for(uint16 iJob=1; iJob <= spiDriver.SpiSequence[Sequence].JobNum; iJob++) {
+    /* cap nhat state cua job da vao queue */
+    Spi_JobType headJob = spiDriver.SpiSequence[Sequence].JobLink[iJob];
+    setJobStatus(headJob, SPI_JOB_QUEUED);
+  }
   
 #if (SpiLevelDelivered==1) //LEVEL 1
   while(spiDriver.SpiSequence[Sequence].JobNum > 0) {
@@ -152,6 +155,7 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
     }
     setJobStatus(headJob,SPI_JOB_PENDING);
     Control_CSN(headJob, LOW);
+    Spi_Delay(5000);
     /* thuc thi job sau khi co job co vi tri priority cao nhat */
     for(uint16 iChannel=1; iChannel<=255; iChannel++) {
       if(spiDriver.SpiJob[headJob].Canceled == ENABLE) {
@@ -166,6 +170,7 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
       Spi_ChannelType channelID = spiDriver.SpiJob[headJob].ChannelLink[iChannel];
       Spi_Transaction_Channel(spiDriver.SpiChannel[channelID].SpiChannelId,
                               spiDriver.SpiChannel[channelID].SpiBufferBase);
+      Spi_Delay(5000);
     }
     Control_CSN(headJob, HIGH);
     //set status for job
@@ -191,10 +196,11 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
       setSequenceStatus(Sequence,SPI_SEQ_CANCELED);
       return E_OK;
     }
-    setJobStatus(iJob,SPI_JOB_PENDING);
     /* thuc thi job */
     Spi_JobType headJob = spiDriver.SpiSequence[Sequence].JobLink[iJob];
+    setJobStatus(headJob,SPI_JOB_PENDING);
     Control_CSN(headJob, LOW);
+    Spi_Delay(5000);
     for(uint16 iChannel=1; iChannel<=255; iChannel++) {
       if(spiDriver.SpiJob[headJob].Canceled == ENABLE) {
         Control_CSN(headJob, HIGH);
@@ -208,6 +214,7 @@ Std_ReturnType Spi_AsyncTransmit(Spi_SequenceType Sequence) {
       Spi_ChannelType channelID = spiDriver.SpiJob[headJob].ChannelLink[iChannel];
       Spi_Transaction_Channel(spiDriver.SpiChannel[channelID].SpiChannelId,
                               spiDriver.SpiChannel[channelID].SpiBufferBase);
+      Spi_Delay(5000);
     }
     Control_CSN(headJob, HIGH);
     //set status for job
