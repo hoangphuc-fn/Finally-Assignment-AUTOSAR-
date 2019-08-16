@@ -1,0 +1,12 @@
+iar_stm8l152_usart.pbi: \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\src\iar_stm8l152_usart.c \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\Libraries\inc\iar_stm8l152_usart.h \
+  E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final\ project\ autosar\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Project\..\Libraries\inc/iar_stm8l152.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h
