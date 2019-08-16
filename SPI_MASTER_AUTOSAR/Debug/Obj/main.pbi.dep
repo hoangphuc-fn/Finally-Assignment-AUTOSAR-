@@ -1,0 +1,21 @@
+main.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\spi_hw.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\SpiDriver\spi.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\itc.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\exti.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\gpio.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\tim4.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\mymacro.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\Standard\inc\clk.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_MASTER_AUTOSAR\User\main.c
