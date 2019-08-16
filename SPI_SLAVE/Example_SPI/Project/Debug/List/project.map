@@ -1,0 +1,319 @@
+###############################################################################
+#
+# IAR ELF Linker V3.11.1.207 for STM8                     16/Aug/2019  10:21:50
+# Copyright 2010-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out
+#    Map file     =  
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map
+#    Command line =  
+#        -f C:\Users\HERA~1.FGA\AppData\Local\Temp\EW7E52.tmp
+#        (C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\main.o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\user_it.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
+#        --no_out_extension -o
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out
+#        --map
+#        C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\stm8\config\lnkstm8l151k4.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A1":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A2":  place at start of [0x008000-0x00bfff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00bfff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x00bfff] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x00bfff] {
+          ro section .huge.rodata, ro section .huge_func.text };
+do not initialize {
+   rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
+   rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
+
+No sections matched the following patterns:
+
+  ro section .far.data_init          in "P3-P5"
+  ro section .far.rodata             in "P3-P5"
+  ro section .far_func.text          in "P3-P5"
+  ro section .far_func.textrw_init   in "P3-P5"
+  ro section .huge.data_init         in "P3-P5"
+  ro section .huge.rodata            in "P3-P5"
+  ro section .huge_func.text         in "P3-P5"
+  ro section .huge_func.textrw_init  in "P3-P5"
+  ro section .iar.init_table         in "P3-P5"
+  ro section .init_array             in "P3-P5"
+  ro section .near.data_init         in "P3-P5"
+  ro section .near.rodata            in "P3-P5"
+  ro section .near_func.textrw_init  in "P3-P5"
+  ro section .tiny.data_init         in "P3-P5"
+  ro section .tiny.rodata_init       in "P3-P5"
+  ro section __DLIB_PERTHREAD_init   in "P3-P5"
+  rw section .far.bss                in "P2"
+  rw section .far.data               in "P2"
+  rw section .far.noinit             in "P2"
+  rw section .far_func.textrw        in "P2"
+  rw section .huge.bss               in "P2"
+  rw section .huge.data              in "P2"
+  rw section .huge.noinit            in "P2"
+  rw section .huge_func.textrw       in "P2"
+  rw section .iar.dynexit            in "P2"
+  rw section .near.data              in "P2"
+  rw section .near.noinit            in "P2"
+  rw section .near_func.textrw       in "P2"
+  rw section .tiny.bss               in "P1"
+  rw section .tiny.data              in "P1"
+  rw section .tiny.noinit            in "P1"
+  rw section .tiny.rodata            in "P1"
+  rw section __DLIB_PERTHREAD        in "P2"
+  section .eeprom.data               in "P6-P8"
+  section .eeprom.noinit             in "P6-P8"
+  section .eeprom.rodata             in "P6-P8"
+
+
+  Section          Kind      Address   Size  Object
+  -------          ----      -------   ----  ------
+"A0":                                   0xc
+  .vregs           uninit   0x000000    0xc  vregs.o [4]
+                          - 0x00000c    0xc
+
+"P2":                                   0x6
+  .near.bss        zero     0x00000c    0x4  main.o [1]
+  .near.bss        zero     0x000010    0x1  main.o [1]
+  .near.bss        zero     0x000011    0x1  main.o [1]
+                          - 0x000012    0x6
+
+"A1":                                 0x100
+  CSTACK                    0x000700  0x100  <Block>
+    CSTACK         uninit   0x000700  0x100  <Block tail>
+                          - 0x000800  0x100
+
+"A2":                                  0x80
+  INTVEC                    0x008000   0x80  <Block>
+    .intvec        const    0x008000   0x80  interrupt.o [4]
+                          - 0x008080   0x80
+
+"P3-P5":                              0x333
+  .near_func.text  ro code  0x008080   0xbf  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x00813f   0x8f  user_it.o [1]
+  .near_func.text  ro code  0x0081ce   0x77  vreg_util.o [4]
+  .near_func.text  ro code  0x008245   0x30  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008275   0x2c  long.o [4]
+  .iar.init_table  const    0x0082a1    0x8  - Linker created -
+  .near_func.text  ro code  0x0082a9   0x1f  main.o [1]
+  .near_func.text  ro code  0x0082c8   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x0082e6   0x1a  long_util.o [4]
+  .near_func.text  ro code  0x008300   0x18  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008318   0x14  init.o [4]
+  .near_func.text  ro code  0x00832c   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008340   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x008353   0x12  user_it.o [1]
+  .near_func.text  ro code  0x008365   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008376   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008387    0x8  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x00838f    0x8  short.o [4]
+  .near_func.text  ro code  0x008397    0x5  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x00839c    0x5  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x0083a1    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0083a6    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0083a9    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0083ac    0x3  exit.o [4]
+  .near_func.text  ro code  0x0083af    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0083b2    0x1  __dbg_break.o [3]
+                          - 0x0083b3  0x333
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x6:
+          0x00000c   0x6
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj: [1]
+    iar_stm8l152_gpio.o        111
+    iar_stm8l152_spi.o         204
+    main.o                      31                 6
+    user_it.o                  161
+    ------------------------------------------------
+    Total:                     507                 6
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      20
+    init_small.o                30
+    interrupt.o                  3      128
+    long.o                      44
+    long_util.o                 26
+    low_level_init.o             3
+    short.o                      8
+    unhandled_exception.o        3
+    vreg_util.o                119
+    vregs.o                                       12
+    ------------------------------------------------
+    Total:                     283      128       12
+
+    Linker created                        8      256
+----------------------------------------------------
+    Grand Total:               811      136      274
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+.iar.init_table$$Base   0x0082a1         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0082a9         --   Gb  - Linker created -
+?b0                     0x000000        Data  Gb  vregs.o [4]
+?b1                     0x000001        Data  Gb  vregs.o [4]
+?b10                    0x00000a        Data  Gb  vregs.o [4]
+?b11                    0x00000b        Data  Gb  vregs.o [4]
+?b2                     0x000002        Data  Gb  vregs.o [4]
+?b3                     0x000003        Data  Gb  vregs.o [4]
+?b4                     0x000004        Data  Gb  vregs.o [4]
+?b5                     0x000005        Data  Gb  vregs.o [4]
+?b6                     0x000006        Data  Gb  vregs.o [4]
+?b7                     0x000007        Data  Gb  vregs.o [4]
+?b8                     0x000008        Data  Gb  vregs.o [4]
+?b9                     0x000009        Data  Gb  vregs.o [4]
+?dec32_0x_0x            0x00828d        Code  Gb  long.o [4]
+?dec32_l0_l0            0x008288        Code  Gb  long.o [4]
+?e0                     0x000001        Data  Gb  vregs.o [4]
+?e1                     0x000005        Data  Gb  vregs.o [4]
+?e2                     0x000009        Data  Gb  vregs.o [4]
+?inc32_0x_0x            0x00827a        Code  Gb  long.o [4]
+?inc32_l0_l0            0x008275        Code  Gb  long.o [4]
+?l0                     0x000000        Data  Gb  vregs.o [4]
+?l1                     0x000004        Data  Gb  vregs.o [4]
+?l2                     0x000008        Data  Gb  vregs.o [4]
+?load32_0x_l0           0x0082f2        Code  Gb  long_util.o [4]
+?load32_l0_0x           0x0082e6        Code  Gb  long_util.o [4]
+?mov_e0_e1              0x00822e        Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x00823b        Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x00822b        Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x008238        Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008231        Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x00823e        Code  Gb  vreg_util.o [4]
+?pop_l0                 0x00820d        Code  Gb  vreg_util.o [4]
+?pop_l1                 0x008218        Code  Gb  vreg_util.o [4]
+?push_l0                0x0081e6        Code  Gb  vreg_util.o [4]
+?push_l1                0x0081eb        Code  Gb  vreg_util.o [4]
+?push_w4                0x0081ce        Code  Gb  vreg_util.o [4]
+?sll16_x_x_a            0x00838f        Code  Gb  short.o [4]
+?w0                     0x000000        Data  Gb  vregs.o [4]
+?w1                     0x000002        Data  Gb  vregs.o [4]
+?w2                     0x000004        Data  Gb  vregs.o [4]
+?w3                     0x000006        Data  Gb  vregs.o [4]
+?w4                     0x000008        Data  Gb  vregs.o [4]
+?w5                     0x00000a        Data  Gb  vregs.o [4]
+CSTACK$$Base            0x000700         --   Gb  - Linker created -
+CSTACK$$Limit           0x000800         --   Gb  - Linker created -
+CS_IRQ                  0x008353  0x12  Code  Gb  user_it.o [1]
+INTVEC$$Base            0x008000         --   Gb  - Linker created -
+INTVEC$$Limit           0x008080         --   Gb  - Linker created -
+Read_SPI                0x00813f  0x8f  Code  Gb  user_it.o [1]
+Region$$Table$$Base     0x0082a1         --   Gb  - Linker created -
+Region$$Table$$Limit    0x0082a9         --   Gb  - Linker created -
+__DebugBreak            0x0083b2   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x00832c  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x008318  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008340        Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x0083af        Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0082c8        Code  Gb  init_small.o [4]
+__intvec                0x008000        Data  Gb  interrupt.o [4]
+__low_level_init        0x0083a9   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0083a1        Code  Gb  cexit.o [4]
+_interrupt_14           0x008353        Code  Gb  user_it.o [1]
+_interrupt_28           0x00813f        Code  Gb  user_it.o [1]
+actived                 0x000010   0x1  Data  Gb  main.o [1]
+cnt                     0x00000c   0x4  Data  Gb  main.o [1]
+config_Gled             0x008365  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_Led_Port         0x008376  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_spi              0x008080  0xbf  Code  Gb  iar_stm8l152_spi.o [1]
+data_read               0x000011   0x1  Data  Gb  main.o [1]
+delay                   0x008300  0x18  Code  Gb  iar_stm8l152_gpio.o [1]
+exit                    0x0083ac   0x3  Code  Gb  exit.o [4]
+main                    0x0082a9  0x1f  Code  Gb  main.o [1]
+read_byte_spi           0x00839c   0x5  Code  Gb  iar_stm8l152_spi.o [1]
+shift_led_effect        0x008245  0x30  Code  Gb  iar_stm8l152_gpio.o [1]
+turn_off_all_led        0x008397   0x5  Code  Gb  iar_stm8l152_gpio.o [1]
+write_byte_spi          0x008387   0x8  Code  Gb  iar_stm8l152_spi.o [1]
+
+
+[1] = C:\Users\hera.fgatraining\Desktop\t\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  811 bytes of readonly  code memory
+  136 bytes of readonly  data memory
+  274 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
