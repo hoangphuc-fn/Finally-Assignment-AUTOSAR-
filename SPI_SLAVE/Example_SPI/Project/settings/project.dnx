@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>3100849508</Checksum>
+        <Checksum>2229848585</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -79,12 +79,13 @@
         <Count>0</Count>
     </Breakpoints>
     <Aliases>
-        <A0>_ "C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\src\iar_stm8l152_gpio.c" ""</A0>
-        <A1>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Libraries\src\iar_stm8l152_lcd.c" ""</A1>
-        <A2>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Libraries\src\iar_stm8l152_spi.c" ""</A2>
-        <A3>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User\main.c" ""</A3>
-        <A4>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User\user_it.c" ""</A4>
-        <Count>5</Count>
+        <A0>_ "C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\User\user_it.c" ""</A0>
+        <A1>_ "C:\Users\hera.fgatraining\Desktop\stable\Finally-Assignment-AUTOSAR-\phuc_slave\Example_SPI\Libraries\src\iar_stm8l152_gpio.c" ""</A1>
+        <A2>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Libraries\src\iar_stm8l152_lcd.c" ""</A2>
+        <A3>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\Libraries\src\iar_stm8l152_spi.c" ""</A3>
+        <A4>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User\main.c" ""</A4>
+        <A5>_ "E:\download\Thuc\project\FPT_LAB\FPT_Lab\autosar_doc\final project autosar\phuc\FGA-Training\Example_SPI\User\user_it.c" ""</A5>
+        <Count>6</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>

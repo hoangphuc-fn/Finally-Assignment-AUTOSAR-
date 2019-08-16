@@ -42,9 +42,10 @@ void config_spi(SPI_Mode_TypeDef SPI_Mode, SPI_DirectionMode_TypeDef SPI_Directi
     sbi(GPIOB->CR1, 5);   // pull-up
     cbi(GPIOB->CR2, 5);   // disable interrupt 
     
-    cbi(GPIOB->DDR, 4);   // PB4 - NSS - OUTPUT
-    sbi(GPIOB->CR1, 4);   // Push - pull
-    cbi(GPIOB->CR2, 4);   // Fast mode
+    cbi(GPIOB->DDR, 4);   // PB4 - NSS - INPUT
+    sbi(GPIOB->CR1, 4);   // Pull-up
+    sbi(GPIOB->CR2, 4);   // Enable interrupt
+    EXTI->CR2 |= (1<<1);  // Falling edge interrupt
   }
   //-------------------------------- MASTER MODE -------------------------------//
   else if(SPI_Mode == SPI_Mode_Master){

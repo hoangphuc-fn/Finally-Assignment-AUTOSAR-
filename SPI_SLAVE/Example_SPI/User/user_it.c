@@ -3,6 +3,15 @@ extern uint32_t cnt;
 extern uint8_t data_read;
 extern uint8_t actived;
 
+#pragma vector=2+12
+__interrupt void CS_IRQ(void){ 
+  if(!gbi(GPIOB->IDR,4)){
+    //printf("ahi\n");
+    cnt = 0;
+  }
+  sbi(EXTI->SR1,4);
+}
+
 #pragma vector=2+26
 __interrupt void Read_SPI(void){
   /*!< count number of bytes read */

@@ -1,34 +1,26 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     15/Aug/2019  22:10:17
+# IAR ELF Linker V3.11.1.207 for STM8                     16/Aug/2019  09:09:25
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out
 #    Map file     =  
-#        C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map
 #    Command line =  
-#        -f C:\Users\HOANGP~1\AppData\Local\Temp\EW8986.tmp ("C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\main.o"
-#        "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\user_it.o"
+#        -f C:\Users\HERA~1.FGA\AppData\Local\Temp\EW2F9A.tmp
+#        (C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_clk.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_gpio.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_lcd.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_spi.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\iar_stm8l152_usart.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\main.o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj\user_it.o
 #        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall
-#        --no_out_extension -o "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out"
-#        --map "C:\Users\Hoang
-#        Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map"
+#        --no_out_extension -o
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Exe\project.out
+#        --map
+#        C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\List\project.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\stm8\config\lnkstm8l151k4.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
@@ -141,33 +133,34 @@ No sections matched the following patterns:
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                              0x31f
-  .near_func.text  ro code  0x008080   0xbb  iar_stm8l152_spi.o [1]
-  .near_func.text  ro code  0x00813b   0x8f  user_it.o [1]
-  .near_func.text  ro code  0x0081ca   0x77  vreg_util.o [4]
-  .near_func.text  ro code  0x008241   0x30  iar_stm8l152_gpio.o [1]
-  .near_func.text  ro code  0x008271   0x2c  long.o [4]
-  .near_func.text  ro code  0x00829d   0x21  main.o [1]
-  .iar.init_table  const    0x0082be    0x8  - Linker created -
-  .near_func.text  ro code  0x0082c6   0x1e  init_small.o [4]
-  .near_func.text  ro code  0x0082e4   0x1a  long_util.o [4]
-  .near_func.text  ro code  0x0082fe   0x18  iar_stm8l152_gpio.o [1]
-  .near_func.text  ro code  0x008316   0x14  init.o [4]
-  .near_func.text  ro code  0x00832a   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x00833e   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x008351   0x11  iar_stm8l152_gpio.o [1]
-  .near_func.text  ro code  0x008362   0x11  iar_stm8l152_gpio.o [1]
-  .near_func.text  ro code  0x008373    0x8  iar_stm8l152_spi.o [1]
-  .near_func.text  ro code  0x00837b    0x8  short.o [4]
-  .near_func.text  ro code  0x008383    0x5  iar_stm8l152_gpio.o [1]
-  .near_func.text  ro code  0x008388    0x5  iar_stm8l152_spi.o [1]
-  .near_func.text  ro code  0x00838d    0x5  cexit.o [4]
-  .near_func.text  ro code  0x008392    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x008395    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x008398    0x3  exit.o [4]
-  .near_func.text  ro code  0x00839b    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x00839e    0x1  __dbg_break.o [3]
-                          - 0x00839f  0x31f
+"P3-P5":                              0x333
+  .near_func.text  ro code  0x008080   0xbf  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x00813f   0x8f  user_it.o [1]
+  .near_func.text  ro code  0x0081ce   0x77  vreg_util.o [4]
+  .near_func.text  ro code  0x008245   0x30  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008275   0x2c  long.o [4]
+  .iar.init_table  const    0x0082a1    0x8  - Linker created -
+  .near_func.text  ro code  0x0082a9   0x1f  main.o [1]
+  .near_func.text  ro code  0x0082c8   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x0082e6   0x1a  long_util.o [4]
+  .near_func.text  ro code  0x008300   0x18  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008318   0x14  init.o [4]
+  .near_func.text  ro code  0x00832c   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008340   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x008353   0x12  user_it.o [1]
+  .near_func.text  ro code  0x008365   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008376   0x11  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x008387    0x8  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x00838f    0x8  short.o [4]
+  .near_func.text  ro code  0x008397    0x5  iar_stm8l152_gpio.o [1]
+  .near_func.text  ro code  0x00839c    0x5  iar_stm8l152_spi.o [1]
+  .near_func.text  ro code  0x0083a1    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0083a6    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0083a9    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0083ac    0x3  exit.o [4]
+  .near_func.text  ro code  0x0083af    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0083b2    0x1  __dbg_break.o [3]
+                          - 0x0083b3  0x333
 
 
 *******************************************************************************
@@ -188,13 +181,13 @@ Zero (__iar_zero_init2)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj: [1]
+C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj: [1]
     iar_stm8l152_gpio.o        111
-    iar_stm8l152_spi.o         200
-    main.o                      33                 6
-    user_it.o                  143
+    iar_stm8l152_spi.o         204
+    main.o                      31                 6
+    user_it.o                  161
     ------------------------------------------------
-    Total:                     487                 6
+    Total:                     507                 6
 
 command line: [2]
     ------------------------------------------------
@@ -225,7 +218,7 @@ dlstm8smn.a: [4]
 
     Linker created                        8      256
 ----------------------------------------------------
-    Grand Total:               791      136      274
+    Grand Total:               811      136      274
 
 
 *******************************************************************************
@@ -234,8 +227,8 @@ dlstm8smn.a: [4]
 
 Entry                    Address  Size  Type      Object
 -----                    -------  ----  ----      ------
-.iar.init_table$$Base   0x0082be         --   Gb  - Linker created -
-.iar.init_table$$Limit  0x0082c6         --   Gb  - Linker created -
+.iar.init_table$$Base   0x0082a1         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0082a9         --   Gb  - Linker created -
 ?b0                     0x000000        Data  Gb  vregs.o [4]
 ?b1                     0x000001        Data  Gb  vregs.o [4]
 ?b10                    0x00000a        Data  Gb  vregs.o [4]
@@ -248,30 +241,30 @@ Entry                    Address  Size  Type      Object
 ?b7                     0x000007        Data  Gb  vregs.o [4]
 ?b8                     0x000008        Data  Gb  vregs.o [4]
 ?b9                     0x000009        Data  Gb  vregs.o [4]
-?dec32_0x_0x            0x008289        Code  Gb  long.o [4]
-?dec32_l0_l0            0x008284        Code  Gb  long.o [4]
+?dec32_0x_0x            0x00828d        Code  Gb  long.o [4]
+?dec32_l0_l0            0x008288        Code  Gb  long.o [4]
 ?e0                     0x000001        Data  Gb  vregs.o [4]
 ?e1                     0x000005        Data  Gb  vregs.o [4]
 ?e2                     0x000009        Data  Gb  vregs.o [4]
-?inc32_0x_0x            0x008276        Code  Gb  long.o [4]
-?inc32_l0_l0            0x008271        Code  Gb  long.o [4]
+?inc32_0x_0x            0x00827a        Code  Gb  long.o [4]
+?inc32_l0_l0            0x008275        Code  Gb  long.o [4]
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?load32_0x_l0           0x0082f0        Code  Gb  long_util.o [4]
-?load32_l0_0x           0x0082e4        Code  Gb  long_util.o [4]
-?mov_e0_e1              0x00822a        Code  Gb  vreg_util.o [4]
-?mov_e1_e0              0x008237        Code  Gb  vreg_util.o [4]
-?mov_l0_l1              0x008227        Code  Gb  vreg_util.o [4]
-?mov_l1_l0              0x008234        Code  Gb  vreg_util.o [4]
-?mov_w1_w3              0x00822d        Code  Gb  vreg_util.o [4]
-?mov_w3_w1              0x00823a        Code  Gb  vreg_util.o [4]
-?pop_l0                 0x008209        Code  Gb  vreg_util.o [4]
-?pop_l1                 0x008214        Code  Gb  vreg_util.o [4]
-?push_l0                0x0081e2        Code  Gb  vreg_util.o [4]
-?push_l1                0x0081e7        Code  Gb  vreg_util.o [4]
-?push_w4                0x0081ca        Code  Gb  vreg_util.o [4]
-?sll16_x_x_a            0x00837b        Code  Gb  short.o [4]
+?load32_0x_l0           0x0082f2        Code  Gb  long_util.o [4]
+?load32_l0_0x           0x0082e6        Code  Gb  long_util.o [4]
+?mov_e0_e1              0x00822e        Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x00823b        Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x00822b        Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x008238        Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008231        Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x00823e        Code  Gb  vreg_util.o [4]
+?pop_l0                 0x00820d        Code  Gb  vreg_util.o [4]
+?pop_l1                 0x008218        Code  Gb  vreg_util.o [4]
+?push_l0                0x0081e6        Code  Gb  vreg_util.o [4]
+?push_l1                0x0081eb        Code  Gb  vreg_util.o [4]
+?push_w4                0x0081ce        Code  Gb  vreg_util.o [4]
+?sll16_x_x_a            0x00838f        Code  Gb  short.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
@@ -280,43 +273,45 @@ Entry                    Address  Size  Type      Object
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
 CSTACK$$Base            0x000700         --   Gb  - Linker created -
 CSTACK$$Limit           0x000800         --   Gb  - Linker created -
+CS_IRQ                  0x008353  0x12  Code  Gb  user_it.o [1]
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
-Read_SPI                0x00813b  0x8f  Code  Gb  user_it.o [1]
-Region$$Table$$Base     0x0082be         --   Gb  - Linker created -
-Region$$Table$$Limit    0x0082c6         --   Gb  - Linker created -
-__DebugBreak            0x00839e   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x00832a  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x008316  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x00833e        Code  Gb  cstartup.o [4]
+Read_SPI                0x00813f  0x8f  Code  Gb  user_it.o [1]
+Region$$Table$$Base     0x0082a1         --   Gb  - Linker created -
+Region$$Table$$Limit    0x0082a9         --   Gb  - Linker created -
+__DebugBreak            0x0083b2   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x00832c  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x008318  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008340        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x00839b        Code  Gb  unhandled_exception.o [4]
-__iar_zero_init2        0x0082c6        Code  Gb  init_small.o [4]
+                        0x0083af        Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0082c8        Code  Gb  init_small.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x008395   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x00838d        Code  Gb  cexit.o [4]
-_interrupt_28           0x00813b        Code  Gb  user_it.o [1]
+__low_level_init        0x0083a9   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0083a1        Code  Gb  cexit.o [4]
+_interrupt_14           0x008353        Code  Gb  user_it.o [1]
+_interrupt_28           0x00813f        Code  Gb  user_it.o [1]
 actived                 0x000010   0x1  Data  Gb  main.o [1]
 cnt                     0x00000c   0x4  Data  Gb  main.o [1]
-config_Gled             0x008351  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
-config_Led_Port         0x008362  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
-config_spi              0x008080  0xbb  Code  Gb  iar_stm8l152_spi.o [1]
+config_Gled             0x008365  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_Led_Port         0x008376  0x11  Code  Gb  iar_stm8l152_gpio.o [1]
+config_spi              0x008080  0xbf  Code  Gb  iar_stm8l152_spi.o [1]
 data_read               0x000011   0x1  Data  Gb  main.o [1]
-delay                   0x0082fe  0x18  Code  Gb  iar_stm8l152_gpio.o [1]
-exit                    0x008398   0x3  Code  Gb  exit.o [4]
-main                    0x00829d  0x21  Code  Gb  main.o [1]
-read_byte_spi           0x008388   0x5  Code  Gb  iar_stm8l152_spi.o [1]
-shift_led_effect        0x008241  0x30  Code  Gb  iar_stm8l152_gpio.o [1]
-turn_off_all_led        0x008383   0x5  Code  Gb  iar_stm8l152_gpio.o [1]
-write_byte_spi          0x008373   0x8  Code  Gb  iar_stm8l152_spi.o [1]
+delay                   0x008300  0x18  Code  Gb  iar_stm8l152_gpio.o [1]
+exit                    0x0083ac   0x3  Code  Gb  exit.o [4]
+main                    0x0082a9  0x1f  Code  Gb  main.o [1]
+read_byte_spi           0x00839c   0x5  Code  Gb  iar_stm8l152_spi.o [1]
+shift_led_effect        0x008245  0x30  Code  Gb  iar_stm8l152_gpio.o [1]
+turn_off_all_led        0x008397   0x5  Code  Gb  iar_stm8l152_gpio.o [1]
+write_byte_spi          0x008387   0x8  Code  Gb  iar_stm8l152_spi.o [1]
 
 
-[1] = C:\Users\Hoang Phuc\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj
+[1] = C:\Users\hera.fgatraining\Desktop\Finally-Assignment-AUTOSAR-\SPI_SLAVE\Example_SPI\Project\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  791 bytes of readonly  code memory
+  811 bytes of readonly  code memory
   136 bytes of readonly  data memory
   274 bytes of readwrite data memory
 
